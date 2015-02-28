@@ -545,10 +545,11 @@ bool CPlayerStateUtil::ShouldSprint( const CPlayer& player, const SActorFrameMov
 	bool shouldSprint = false;
 	const SPlayerStats& stats = player.m_stats;
 	const bool movingForward = IsMovingForward( player, movement );
-
+//CodeChange
 	bool restrictSprint = player.IsJumping() || /*stats.bIgnoreSprinting ||*/ player.IsSliding() || player.IsCinematicFlagActive(SPlayerStats::eCinematicFlag_RestrictMovement);
 
 	CWeapon* pWeapon = pCurrentPlayerItem ? static_cast<CWeapon*>(pCurrentPlayerItem->GetIWeapon()) : NULL;
+//CodeChange
 	/*bool isZooming = pWeapon ? pWeapon->IsZoomed() && !pWeapon->IsZoomingInOrOut() : false;*/
 	if (pWeapon && !pWeapon->CanSprint())
 		restrictSprint = true;
@@ -558,11 +559,13 @@ bool CPlayerStateUtil::ShouldSprint( const CPlayer& player, const SActorFrameMov
 
 	if (player.IsSprinting() == false)
 	{
+//CodeChange
 		shouldSprint = movingForward && !restrictSprint /*&& !isZooming*/;
 		CCCPOINT_IF(shouldSprint, PlayerMovement_SprintOn);
 	}
 	else
 	{
+//CodeChange
 		shouldSprint = movingForward && !restrictSprint /*&& !isZooming*/;
 		//CryLogAlways("  shouldSprint = %d", shouldSprint);
 
