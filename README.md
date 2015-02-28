@@ -1,2 +1,0 @@
-# QuestDrake
-CryEngine Project
