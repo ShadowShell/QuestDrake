@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Performance|Win32">
+      <Configuration>Performance</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Performance|x64">
+      <Configuration>Performance</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile Server Only|Win32">
+      <Configuration>Profile Server Only</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile Server Only|x64">
+      <Configuration>Profile Server Only</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Server Only|Win32">
+      <Configuration>Release Server Only</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Server Only|x64">
+      <Configuration>Release Server Only</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{779CD917-A210-4C97-B6D1-168A1FB399C7}</ProjectGuid>
+    <RootNamespace>CryAudioImplWwise</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(ProjectDir)..\..\..\..\Solutions\Common.Base.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(PropsFolder)Common.props" />
+  <Import Project="$(ProjectDir)CryAudioImplWwise.props" />
+  <ItemDefinitionGroup Condition="'$(BasePlatform)'=='Durango'">
+    <Link>
+      <AdditionalDependencies>acphal.lib;xaudio2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioSystemImplCVars.cpp" />
+    <ClCompile Include="AudioSystemImpl_wwise.cpp" />
+    <ClCompile Include="Common_wwise.cpp" />
+    <ClCompile Include="CryAudioImplWwise.cpp" />
+    <ClCompile Include="FileIOHandler_wwise.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(BasePlatform)'!='ORBIS'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(BasePlatform)'=='ORBIS'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.h">
+      <PrecompiledHeader Condition="'$(BasePlatform)'=='ORBIS'">Create</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(BasePlatform)'!='ORBIS'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ATLEntities_wwise.h" />
+    <ClInclude Include="AudioSystemImplCVars.h" />
+    <ClInclude Include="AudioSystemImpl_wwise.h" />
+    <ClInclude Include="Common_wwise.h" />
+    <ClInclude Include="FileIOHandler_wwise.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CryAudioImplWwise.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CryAudioImplWwise.props" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

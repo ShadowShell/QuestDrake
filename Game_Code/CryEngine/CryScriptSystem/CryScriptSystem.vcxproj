@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Performance|Win32">
+      <Configuration>Performance</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Performance|x64">
+      <Configuration>Performance</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile Server Only|Win32">
+      <Configuration>Profile Server Only</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile Server Only|x64">
+      <Configuration>Profile Server Only</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Server Only|Win32">
+      <Configuration>Release Server Only</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Server Only|x64">
+      <Configuration>Release Server Only</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{553634EE-0C92-4CB0-8576-A9F5F7D001BC}</ProjectGuid>
+    <RootNamespace>CryScriptSystem</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(ProjectDir)..\..\Solutions\Common.Base.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(PropsFolder)Common.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);Lua</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings Condition="'$(BasePlatform)'!='ORBIS'">4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Midl>
+      <PreprocessorDefinitions>CRYXMLDOM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BucketAllocator.h" />
+    <ClInclude Include="LuaDebugger\GoToFuncWnd.h" />
+    <ClInclude Include="LuaRemoteDebug\LuaRemoteDebug.h" />
+    <ClInclude Include="LuaRemoteDebug\SerializationHelper.h" />
+    <ClInclude Include="ScriptBindings\ScriptBind_MusicLogic.h" />
+    <ClInclude Include="ScriptTimerMgr.h" />
+    <ClInclude Include="FunctionHandler.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ScriptSystem.h" />
+    <ClInclude Include="ScriptTable.h" />
+    <ClInclude Include="StackGuard.h" />
+    <ClInclude Include="ScriptBindings\ScriptBind_Movie.h" />
+    <ClInclude Include="ScriptBindings\ScriptBind_Particle.h" />
+    <ClInclude Include="ScriptBindings\ScriptBind_Physics.h" />
+    <ClInclude Include="ScriptBindings\ScriptBind_Script.h" />
+    <ClInclude Include="ScriptBindings\ScriptBind_Sound.h" />
+    <ClInclude Include="ScriptBindings\ScriptBind_System.h" />
+    <ClInclude Include="ScriptBindings\ScriptBinding.h" />
+    <ClInclude Include="ScriptBindings\SurfaceTypes.h" />
+    <ClInclude Include="Lua\lapi.h" />
+    <ClInclude Include="Lua\lauxlib.h" />
+    <ClInclude Include="Lua\lcode.h" />
+    <ClInclude Include="Lua\ldebug.h" />
+    <ClInclude Include="Lua\ldo.h" />
+    <ClInclude Include="Lua\lfunc.h" />
+    <ClInclude Include="Lua\lgc.h" />
+    <ClInclude Include="Lua\llex.h" />
+    <ClInclude Include="Lua\llimits.h" />
+    <ClInclude Include="Lua\lmem.h" />
+    <ClInclude Include="Lua\lobject.h" />
+    <ClInclude Include="Lua\lopcodes.h" />
+    <ClInclude Include="Lua\lparser.h" />
+    <ClInclude Include="Lua\lstate.h" />
+    <ClInclude Include="Lua\lstring.h" />
+    <ClInclude Include="Lua\ltable.h" />
+    <ClInclude Include="Lua\ltm.h" />
+    <ClInclude Include="Lua\lua.h" />
+    <ClInclude Include="Lua\luaconf.h" />
+    <ClInclude Include="Lua\lualib.h" />
+    <ClInclude Include="Lua\lundump.h" />
+    <ClInclude Include="Lua\lvm.h" />
+    <ClInclude Include="Lua\lzio.h" />
+    <ClInclude Include="LuaDebugger\_TinyBrowseFolder.h" />
+    <ClInclude Include="LuaDebugger\_TinyCaptionWindow.h" />
+    <ClInclude Include="LuaDebugger\_TinyCoolEdit.h" />
+    <ClInclude Include="LuaDebugger\_TinyFileEnum.h" />
+    <ClInclude Include="LuaDebugger\_TinyImageList.h" />
+    <ClInclude Include="LuaDebugger\_TinyMain.h" />
+    <ClInclude Include="LuaDebugger\_TinyRegistry.h" />
+    <ClInclude Include="LuaDebugger\_TinySplitter.h" />
+    <ClInclude Include="LuaDebugger\_TinyStatusBar.h" />
+    <ClInclude Include="LuaDebugger\_TinyTreeList.h" />
+    <ClInclude Include="LuaDebugger\_TinyWindow.h" />
+    <ClInclude Include="LuaDebugger\AboutWnd.h" />
+    <ClInclude Include="LuaDebugger\Coverage.h" />
+    <ClInclude Include="LuaDebugger\FileTree.h" />
+    <ClInclude Include="LuaDebugger\GoToWnd.h" />
+    <ClInclude Include="LuaDebugger\LUADBG.h" />
+    <ClInclude Include="LuaCryPakIO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CryScriptSystem.cpp" />
+    <ClCompile Include="FunctionHandler.cpp" />
+    <ClCompile Include="LuaRemoteDebug\LuaRemoteDebug.cpp" />
+    <ClCompile Include="ScriptBindings\ScriptBind_MusicLogic.cpp" />
+    <ClCompile Include="ScriptSystem.cpp" />
+    <ClCompile Include="ScriptTable.cpp" />
+    <ClCompile Include="ScriptTimerMgr.cpp" />
+    <ClCompile Include="ScriptBindings\ScriptBind_Movie.cpp" />
+    <ClCompile Include="ScriptBindings\ScriptBind_Particle.cpp" />
+    <ClCompile Include="ScriptBindings\ScriptBind_Physics.cpp" />
+    <ClCompile Include="ScriptBindings\ScriptBind_Script.cpp" />
+    <ClCompile Include="ScriptBindings\ScriptBind_Sound.cpp" />
+    <ClCompile Include="ScriptBindings\ScriptBind_System.cpp" />
+    <ClCompile Include="ScriptBindings\ScriptBinding.cpp" />
+    <ClCompile Include="ScriptBindings\SurfaceTypes.cpp" />
+    <ClCompile Include="Lua\lapi.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lauxlib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lbaselib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="LuaLib\lbitlib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lcode.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\ldblib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\ldebug.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\ldo.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\ldump.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lfunc.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lgc.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\linit.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\liolib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\llex.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lmathlib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lmem.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\loadlib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lobject.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lopcodes.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\loslib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lparser.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lstate.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lstring.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lstrlib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\ltable.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\ltablib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\ltm.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\luac.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lundump.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lvm.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\lzio.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="Lua\print.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="vectorlib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">false</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="LuaDebugger\Coverage.cpp" />
+    <ClCompile Include="LuaDebugger\FileTree.cpp" />
+    <ClCompile Include="LuaDebugger\LUADBG.cpp" />
+    <ClCompile Include="LuaCryPakIO.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(BasePlatform)'!='ORBIS'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StdAfx.h">
+      <PrecompiledHeader Condition="'$(BasePlatform)'=='ORBIS'">Create</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(BasePlatform)'!='ORBIS'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CryScriptSystem.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LuaDebugger\LUADBG.ico" />
+    <None Include="LuaDebugger\small.ico" />
+    <None Include="LuaDebugger\res\toolbar1.bmp" />
+    <None Include="LuaDebugger\res\TreeView.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

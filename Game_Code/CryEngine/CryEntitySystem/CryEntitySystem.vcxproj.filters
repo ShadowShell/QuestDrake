@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{93b30212-f934-4312-935b-f4c3e8128a26}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Proxy">
+      <UniqueIdentifier>{05fb6846-e3a4-4626-8df2-31c4fd027ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Script">
+      <UniqueIdentifier>{cd14ee59-1d54-40f1-9aaa-7a55bbe54cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Physics">
+      <UniqueIdentifier>{0708efc4-35a0-44bc-bece-f61ac22e54c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Render">
+      <UniqueIdentifier>{bf1cfbfa-e780-46e0-87fe-aadef097b0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Area">
+      <UniqueIdentifier>{03d1208c-f1a3-478e-8d69-dbba4b5c10a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\FlowGraph">
+      <UniqueIdentifier>{fb59d351-75a3-498d-af8c-c1746d8a8a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\SubstitutionProxy">
+      <UniqueIdentifier>{19e60bc8-3e01-4aa7-add2-c3980620bdd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\TriggerProxy">
+      <UniqueIdentifier>{40b68d40-699d-426a-9b1c-db642d27a20f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\CameraProxy">
+      <UniqueIdentifier>{960891ca-44f0-405e-b707-2cf56b1ae6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\TrackView">
+      <UniqueIdentifier>{7a2bc54d-6eb0-4fde-8014-fef6fc46c7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityClass">
+      <UniqueIdentifier>{feee47e7-fa6c-4783-8b75-8006d48d168b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loading">
+      <UniqueIdentifier>{571856b5-97aa-48ab-aa99-2a9ec2dfd05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AreaManager">
+      <UniqueIdentifier>{ab964b46-51c1-4339-b31b-c661bf0f0df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BreakableManager">
+      <UniqueIdentifier>{f3aaebb1-0af4-4734-a376-089d568d6bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PartitionGrid">
+      <UniqueIdentifier>{5e4f6d5b-f6ce-45bc-ad41-51084f249ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pool">
+      <UniqueIdentifier>{e5772332-7b78-48ac-b457-3558aa3301fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Audio">
+      <UniqueIdentifier>{223353f0-1766-4fe7-9e17-6d6dfd55d6cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AffineParts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryEntityDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityArchetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityCVars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitySystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityTimeoutList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityScript.cpp">
+      <Filter>Proxy\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_Entity.cpp">
+      <Filter>Proxy\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptProperties.cpp">
+      <Filter>Proxy\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptProxy.cpp">
+      <Filter>Proxy\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEventListener.cpp">
+      <Filter>Proxy\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsProxy.cpp">
+      <Filter>Proxy\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RopeProxy.cpp">
+      <Filter>Proxy\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityObject.cpp">
+      <Filter>Proxy\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderProxy.cpp">
+      <Filter>Proxy\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaProxy.cpp">
+      <Filter>Proxy\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowGraphProxy.cpp">
+      <Filter>Proxy\FlowGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="SubstitutionProxy.cpp">
+      <Filter>Proxy\SubstitutionProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerProxy.cpp">
+      <Filter>Proxy\TriggerProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraProxy.cpp">
+      <Filter>Proxy\CameraProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityNodeProxy.cpp">
+      <Filter>Proxy\TrackView</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityClass.cpp">
+      <Filter>EntityClass</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityClassRegistry.cpp">
+      <Filter>EntityClass</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityLoadManager.cpp">
+      <Filter>Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Area.cpp">
+      <Filter>AreaManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaGrid.cpp">
+      <Filter>AreaManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaManager.cpp">
+      <Filter>AreaManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakableManager.cpp">
+      <Filter>BreakableManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PartitionGrid.cpp">
+      <Filter>PartitionGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="ProximityTriggerSystem.cpp">
+      <Filter>PartitionGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="RadixSort.cpp">
+      <Filter>PartitionGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPool.cpp">
+      <Filter>Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPoolDefinition.cpp">
+      <Filter>Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPoolManager.cpp">
+      <Filter>Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPoolSignature.cpp">
+      <Filter>Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakablePlane.cpp">
+      <Filter>BreakableManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaSolid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSPTree3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentEventDistributer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeomCacheAttachmentManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterBoneAttachmentManager.cpp">
+      <Filter>Source Files</Filter>
+	</ClCompile>
+    <ClCompile Include="EntityAudioProxy.cpp">
+      <Filter>Proxy\Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AffineParts.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityArchetype.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityCVars.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityIt.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityLayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntitySystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityTimeoutList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaltBufferArray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaltHandle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityScript.h">
+      <Filter>Proxy\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_Entity.h">
+      <Filter>Proxy\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptProperties.h">
+      <Filter>Proxy\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptProxy.h">
+      <Filter>Proxy\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEventListener.h">
+      <Filter>Proxy\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsProxy.h">
+      <Filter>Proxy\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RopeProxy.h">
+      <Filter>Proxy\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityObject.h">
+      <Filter>Proxy\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderProxy.h">
+      <Filter>Proxy\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaProxy.h">
+      <Filter>Proxy\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowGraphProxy.h">
+      <Filter>Proxy\FlowGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="SubstitutionProxy.h">
+      <Filter>Proxy\SubstitutionProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerProxy.h">
+      <Filter>Proxy\TriggerProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraProxy.h">
+      <Filter>Proxy\CameraProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityNodeProxy.h">
+      <Filter>Proxy\TrackView</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityClass.h">
+      <Filter>EntityClass</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityClassRegistry.h">
+      <Filter>EntityClass</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityLoadManager.h">
+      <Filter>Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Area.h">
+      <Filter>AreaManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaGrid.h">
+      <Filter>AreaManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaManager.h">
+      <Filter>AreaManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableManager.h">
+      <Filter>BreakableManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PartitionGrid.h">
+      <Filter>PartitionGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="ProximityTriggerSystem.h">
+      <Filter>PartitionGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="RadixSort.h">
+      <Filter>PartitionGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPool.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPoolCommon.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPoolDefinition.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPoolManager.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPoolSignature.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakablePlane.h">
+      <Filter>BreakableManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentEventDistributer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaSolid.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSPTree3D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaUtil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeomCacheAttachmentManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterBoneAttachmentManager.h">
+      <Filter>Source Files</Filter>
+	</ClInclude>
+    <ClInclude Include="EntityAudioProxy.h">
+      <Filter>Proxy\Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CryEntitySystem.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

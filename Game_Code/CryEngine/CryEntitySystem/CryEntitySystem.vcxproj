@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Performance|Win32">
+      <Configuration>Performance</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Performance|x64">
+      <Configuration>Performance</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile Server Only|Win32">
+      <Configuration>Profile Server Only</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile Server Only|x64">
+      <Configuration>Profile Server Only</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Server Only|Win32">
+      <Configuration>Release Server Only</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Server Only|x64">
+      <Configuration>Release Server Only</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED25E8E5-3A18-4236-9FE2-06E706380C5C}</ProjectGuid>
+    <RootNamespace>CryEntitySystem</RootNamespace>
+    <PrecompiledHeaderName>stdafx</PrecompiledHeaderName>
+    <!-- lowercase stdafx used in this project -->
+  </PropertyGroup>
+  <Import Project="$(ProjectDir)..\..\Solutions\Common.Base.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(PropsFolder)Common.props" />
+  <ItemGroup>
+    <ClCompile Include="AffineParts.cpp" />
+    <ClCompile Include="AreaSolid.cpp" />
+    <ClCompile Include="BreakablePlane.cpp" />
+    <ClCompile Include="BSPTree3D.cpp" />
+    <ClCompile Include="CharacterBoneAttachmentManager.cpp" />
+    <ClCompile Include="ComponentEventDistributer.cpp" />
+    <ClCompile Include="CryEntityDLL.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityArchetype.cpp" />
+    <ClCompile Include="EntityAudioProxy.cpp" />
+    <ClCompile Include="EntityCVars.cpp" />
+    <ClCompile Include="EntityLayer.cpp" />
+    <ClCompile Include="EntitySystem.cpp" />
+    <ClCompile Include="EntityTimeoutList.cpp" />
+    <ClCompile Include="GeomCacheAttachmentManager.cpp" />
+    <ClCompile Include="EntityScript.cpp" />
+    <ClCompile Include="ScriptBind_Entity.cpp" />
+    <ClCompile Include="ScriptProperties.cpp" />
+    <ClCompile Include="ScriptProxy.cpp" />
+    <ClCompile Include="PhysicsEventListener.cpp" />
+    <ClCompile Include="PhysicsProxy.cpp" />
+    <ClCompile Include="RopeProxy.cpp" />
+    <ClCompile Include="EntityObject.cpp" />
+    <ClCompile Include="RenderProxy.cpp" />
+    <ClCompile Include="AreaProxy.cpp" />
+    <ClCompile Include="FlowGraphProxy.cpp" />
+    <ClCompile Include="SubstitutionProxy.cpp" />
+    <ClCompile Include="TriggerProxy.cpp" />
+    <ClCompile Include="CameraProxy.cpp" />
+    <ClCompile Include="EntityNodeProxy.cpp" />
+    <ClCompile Include="EntityClass.cpp" />
+    <ClCompile Include="EntityClassRegistry.cpp" />
+    <ClCompile Include="EntityLoadManager.cpp" />
+    <ClCompile Include="Area.cpp" />
+    <ClCompile Include="AreaGrid.cpp" />
+    <ClCompile Include="AreaManager.cpp" />
+    <ClCompile Include="BreakableManager.cpp" />
+    <ClCompile Include="PartitionGrid.cpp" />
+    <ClCompile Include="ProximityTriggerSystem.cpp" />
+    <ClCompile Include="RadixSort.cpp" />
+    <ClCompile Include="EntityPool.cpp" />
+    <ClCompile Include="EntityPoolDefinition.cpp" />
+    <ClCompile Include="EntityPoolManager.cpp" />
+    <ClCompile Include="EntityPoolSignature.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(BasePlatform)'!='ORBIS'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.h">
+      <PrecompiledHeader Condition="'$(BasePlatform)'=='ORBIS'">Create</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(BasePlatform)'!='ORBIS'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AffineParts.h" />
+    <ClInclude Include="AreaSolid.h" />
+    <ClInclude Include="AreaUtil.h" />
+    <ClInclude Include="BreakablePlane.h" />
+    <ClInclude Include="BSPTree3D.h" />
+    <ClInclude Include="CharacterBoneAttachmentManager.h" />
+    <ClInclude Include="ComponentEventDistributer.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityArchetype.h" />
+    <ClInclude Include="EntityAudioProxy.h" />
+    <ClInclude Include="EntityCVars.h" />
+    <ClInclude Include="EntityIt.h" />
+    <ClInclude Include="EntityLayer.h" />
+    <ClInclude Include="EntitySystem.h" />
+    <ClInclude Include="EntityTimeoutList.h" />
+    <ClInclude Include="GeomCacheAttachmentManager.h" />
+    <ClInclude Include="SaltBufferArray.h" />
+    <ClInclude Include="SaltHandle.h" />
+    <ClInclude Include="EntityScript.h" />
+    <ClInclude Include="ScriptBind_Entity.h" />
+    <ClInclude Include="ScriptProperties.h" />
+    <ClInclude Include="ScriptProxy.h" />
+    <ClInclude Include="PhysicsEventListener.h" />
+    <ClInclude Include="PhysicsProxy.h" />
+    <ClInclude Include="RopeProxy.h" />
+    <ClInclude Include="EntityObject.h" />
+    <ClInclude Include="RenderProxy.h" />
+    <ClInclude Include="AreaProxy.h" />
+    <ClInclude Include="FlowGraphProxy.h" />
+    <ClInclude Include="SubstitutionProxy.h" />
+    <ClInclude Include="TriggerProxy.h" />
+    <ClInclude Include="CameraProxy.h" />
+    <ClInclude Include="EntityNodeProxy.h" />
+    <ClInclude Include="EntityClass.h" />
+    <ClInclude Include="EntityClassRegistry.h" />
+    <ClInclude Include="EntityLoadManager.h" />
+    <ClInclude Include="Area.h" />
+    <ClInclude Include="AreaGrid.h" />
+    <ClInclude Include="AreaManager.h" />
+    <ClInclude Include="BreakableManager.h" />
+    <ClInclude Include="PartitionGrid.h" />
+    <ClInclude Include="ProximityTriggerSystem.h" />
+    <ClInclude Include="RadixSort.h" />
+    <ClInclude Include="EntityPool.h" />
+    <ClInclude Include="EntityPoolCommon.h" />
+    <ClInclude Include="EntityPoolDefinition.h" />
+    <ClInclude Include="EntityPoolManager.h" />
+    <ClInclude Include="EntityPoolSignature.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CryEntitySystem.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DX">
+      <UniqueIdentifier>{b39af861-a0d2-4f6d-9f78-90cc6a0a5d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{79719ac7-6336-4439-83d3-791d8c6f6827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kinect">
+      <UniqueIdentifier>{098b0ae9-d0a0-48bc-b509-cb04f44cf1da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrackIR">
+      <UniqueIdentifier>{700e17d5-d5b9-4e8e-8804-9ffee9d1163c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX\HeadmountedDevice">
+      <UniqueIdentifier>{e33a5ac8-6753-40b2-a93c-a9e7fbf86e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Synergy">
+      <UniqueIdentifier>{17457644-2c0b-421b-8ca6-c875972a0679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kinect\Filters">
+      <UniqueIdentifier>{f8fd77a3-db1f-437c-a3af-fcc6be773be2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DXInput.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXInputDevice.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseInput.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDevice.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="XInputDevice.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="CryInput.cpp" />
+    <ClCompile Include="InputCVars.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="Filters\JointFilter.cpp">
+      <Filter>Kinect\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadmountedDevice\HeadMountedDevice.cpp">
+      <Filter>DX\HeadmountedDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Synergy\SynergyContext.cpp">
+      <Filter>Synergy</Filter>
+    </ClCompile>
+    <ClCompile Include="Synergy\SynergyKeyboard.cpp">
+      <Filter>Synergy</Filter>
+    </ClCompile>
+    <ClCompile Include="Synergy\SynergyMouse.cpp">
+      <Filter>Synergy</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.h" />
+    <ClCompile Include="KinectInput.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectXboxSyncThread.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DXInput.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXInputDevice.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseInput.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="XInputDevice.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CryInput.h" />
+    <ClInclude Include="InputCVars.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="KinectInputNULL.h">
+      <Filter>Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters\JointFilter.h">
+      <Filter>Kinect\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalPointInputNULL.h">
+      <Filter>TrackIR</Filter>
+    </ClInclude>
+    <ClInclude Include="Synergy\SynergyContext.h">
+      <Filter>Synergy</Filter>
+    </ClInclude>
+    <ClInclude Include="Synergy\SynergyKeyboard.h">
+      <Filter>Synergy</Filter>
+    </ClInclude>
+    <ClInclude Include="Synergy\SynergyMouse.h">
+      <Filter>Synergy</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadmountedDevice\HeadMountedDevice.h">
+      <Filter>DX\HeadmountedDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectInput.h">
+      <Filter>Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectXboxSyncThread.h">
+      <Filter>Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbisPadWin.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CryInput.rc" />
+  </ItemGroup>
+</Project>

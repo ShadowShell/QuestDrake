@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8886c2a4-e28e-4930-83b7-d500294c71d8}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c9301761-174c-4f5e-a82c-e127279bc66d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="ScriptBindings">
+      <UniqueIdentifier>{1417508f-476c-4042-b018-eaea3588774e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{2b56beae-cf89-4fdb-8289-f6671a010c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaDebugger">
+      <UniqueIdentifier>{2c070ec3-fe96-4dc0-bc5f-c01d9342999c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{de46a743-a188-483d-bc9f-79ae23638c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaCryPak">
+      <UniqueIdentifier>{e533a783-c1de-4460-8bd5-244712eaaab8}</UniqueIdentifier>
+      <Extensions>cpp;h</Extensions>
+    </Filter>
+    <Filter Include="LuaRemoteDebug">
+      <UniqueIdentifier>{6d1ab737-a18e-46b0-bfcb-e5aad46850c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BucketAllocator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptTimerMgr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackGuard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\ScriptBind_Movie.h">
+      <Filter>ScriptBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\ScriptBind_Particle.h">
+      <Filter>ScriptBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\ScriptBind_Physics.h">
+      <Filter>ScriptBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\ScriptBind_Script.h">
+      <Filter>ScriptBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\ScriptBind_Sound.h">
+      <Filter>ScriptBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\ScriptBind_System.h">
+      <Filter>ScriptBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\ScriptBinding.h">
+      <Filter>ScriptBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\SurfaceTypes.h">
+      <Filter>ScriptBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lapi.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lauxlib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lcode.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ldebug.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ldo.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lfunc.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lgc.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\llex.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\llimits.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lmem.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lobject.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lopcodes.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lparser.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lstate.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lstring.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ltable.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ltm.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lua.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\luaconf.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lualib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lundump.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lvm.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lzio.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyBrowseFolder.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyCaptionWindow.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyCoolEdit.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyFileEnum.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyImageList.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyMain.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyRegistry.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinySplitter.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyStatusBar.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyTreeList.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\_TinyWindow.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\AboutWnd.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\Coverage.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\FileTree.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\GoToWnd.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\LUADBG.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaCryPakIO.h">
+      <Filter>LuaCryPak</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaRemoteDebug\LuaRemoteDebug.h">
+      <Filter>LuaRemoteDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaRemoteDebug\SerializationHelper.h">
+      <Filter>LuaRemoteDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\ScriptBind_MusicLogic.h">
+      <Filter>ScriptBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaDebugger\GoToFuncWnd.h">
+      <Filter>LuaDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBindings\ScriptBind_MusicLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CryScriptSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptTimerMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBindings\ScriptBind_Movie.cpp">
+      <Filter>ScriptBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBindings\ScriptBind_Particle.cpp">
+      <Filter>ScriptBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBindings\ScriptBind_Physics.cpp">
+      <Filter>ScriptBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBindings\ScriptBind_Script.cpp">
+      <Filter>ScriptBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBindings\ScriptBind_Sound.cpp">
+      <Filter>ScriptBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBindings\ScriptBind_System.cpp">
+      <Filter>ScriptBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBindings\ScriptBinding.cpp">
+      <Filter>ScriptBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBindings\SurfaceTypes.cpp">
+      <Filter>ScriptBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lapi.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lauxlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lbaselib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaLib\lbitlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lcode.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldblib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldebug.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldo.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldump.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lfunc.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lgc.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\linit.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\liolib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\llex.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lmathlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lmem.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\loadlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lobject.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lopcodes.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\loslib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lparser.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lstate.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lstring.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lstrlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ltable.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ltablib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ltm.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\luac.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lundump.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lvm.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lzio.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\print.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="vectorlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaDebugger\Coverage.cpp">
+      <Filter>LuaDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaDebugger\FileTree.cpp">
+      <Filter>LuaDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaDebugger\LUADBG.cpp">
+      <Filter>LuaDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaCryPakIO.cpp">
+      <Filter>LuaCryPak</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaRemoteDebug\LuaRemoteDebug.cpp">
+      <Filter>LuaRemoteDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBindings\ScriptBind_MusicLogic.cpp">
+      <Filter>ScriptBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CryScriptSystem.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LuaDebugger\LUADBG.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LuaDebugger\small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LuaDebugger\res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LuaDebugger\res\TreeView.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

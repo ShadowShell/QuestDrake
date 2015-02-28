@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Performance|Win32">
+      <Configuration>Performance</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Performance|x64">
+      <Configuration>Performance</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile Server Only|Win32">
+      <Configuration>Profile Server Only</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile Server Only|x64">
+      <Configuration>Profile Server Only</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Server Only|Win32">
+      <Configuration>Release Server Only</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Server Only|x64">
+      <Configuration>Release Server Only</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BDBC2938-D1D4-4773-9466-4E085586B073}</ProjectGuid>
+    <RootNamespace>CryInput</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(ProjectDir)..\..\Solutions\Common.Base.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(PropsFolder)Common.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories Condition="'$(Platform)'=='x64'">$(SDKFolder)OrbisPad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAsWinRT Condition="'$(BasePlatform)'=='Durango'">true</CompileAsWinRT>
+      <ExceptionHandling Condition="'$(BasePlatform)'=='Durango'">Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies Condition="'$(BasePlatform)'=='Durango'">uuid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Filters\JointFilter.cpp">
+      <ExcludedFromBuild Condition="$(IsDedicatedServer)">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="KinectInput.cpp">
+      <ExcludedFromBuild Condition="$(IsDedicatedServer)">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="KinectXboxSyncThread.cpp">
+      <ExcludedFromBuild Condition="$(IsDedicatedServer)">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="HeadmountedDevice\HeadMountedDevice.cpp" />
+    <ClCompile Include="Synergy\SynergyContext.cpp" />
+    <ClCompile Include="Synergy\SynergyKeyboard.cpp" />
+    <ClCompile Include="Synergy\SynergyMouse.cpp" />
+    <ClCompile Include="DXInput.cpp" />
+    <ClCompile Include="DXInputDevice.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="BaseInput.cpp" />
+    <ClCompile Include="InputDevice.cpp" />
+    <ClCompile Include="XInputDevice.cpp" />
+    <ClCompile Include="CryInput.cpp" />
+    <ClCompile Include="InputCVars.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(BasePlatform)'!='ORBIS'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StdAfx.h">
+      <PrecompiledHeader Condition="'$(BasePlatform)'=='ORBIS'">Create</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(BasePlatform)'!='ORBIS'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Filters\JointFilter.h">
+      <ExcludedFromBuild Condition="$(IsDedicatedServer)">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="HeadmountedDevice\HeadMountedDevice.h" />
+    <ClInclude Include="KinectInput.h">
+      <ExcludedFromBuild Condition="$(IsDedicatedServer)">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="KinectInputNULL.h">
+      <ExcludedFromBuild Condition="$(IsDedicatedServer)">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="KinectXboxSyncThread.h">
+      <ExcludedFromBuild Condition="$(IsDedicatedServer)">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="NaturalPointInputNULL.h" />
+    <ClInclude Include="OrbisPadWin.h" />
+    <ClInclude Include="Synergy\SynergyContext.h" />
+    <ClInclude Include="Synergy\SynergyKeyboard.h" />
+    <ClInclude Include="Synergy\SynergyMouse.h" />
+    <ClInclude Include="DXInput.h" />
+    <ClInclude Include="DXInputDevice.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="BaseInput.h" />
+    <ClInclude Include="InputDevice.h" />
+    <ClInclude Include="XInputDevice.h" />
+    <ClInclude Include="CryInput.h" />
+    <ClInclude Include="InputCVars.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CryInput.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

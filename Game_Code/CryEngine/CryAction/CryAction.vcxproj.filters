@@ -1,0 +1,2704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{dd7c6d17-aed4-43b5-9267-7caa0bfb5993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{f1938b47-3f7f-40d2-ae58-29237418aca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\Script XML Helpers">
+      <UniqueIdentifier>{f9c9c2ed-da73-45cc-90a7-049359a2fd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\Serialize to script">
+      <UniqueIdentifier>{7058425a-b526-4c7d-805f-e0310333c30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\Binary Save Games">
+      <UniqueIdentifier>{b894c20b-71f1-4e78-a10c-41afac0e4eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\Binary Save Games\XMLCPBin">
+      <UniqueIdentifier>{5ec77310-0eee-4c25-80a1-38b82219cd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\Binary Save Games\XMLCPBin\Writer">
+      <UniqueIdentifier>{9fa89f72-84c6-4f82-83bf-9e9b7e0c8276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\Binary Save Games\XMLCPBin\Reader">
+      <UniqueIdentifier>{619559a7-9412-47e2-b096-39e0ed13194f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialEffects">
+      <UniqueIdentifier>{d7e9f3df-ad70-4142-a567-7e9870ba8a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameTokens">
+      <UniqueIdentifier>{8141f103-aebb-4f7d-a2a1-941ef57808e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EffectSystem">
+      <UniqueIdentifier>{9f0e9b8c-c4ad-421a-a9b2-d28423e89055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIDraw">
+      <UniqueIdentifier>{720bdcbe-01d4-4544-90bf-dd226895ddc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugHelpers">
+      <UniqueIdentifier>{583af71c-e7a1-4207-b88a-7ecc7cfbecdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerProfiles">
+      <UniqueIdentifier>{4540223e-d8a8-49b8-85bb-7f543bf27ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RCon">
+      <UniqueIdentifier>{a977e42e-3723-4ea0-acd7-8eb5a120d960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Http">
+      <UniqueIdentifier>{947d66d3-dfe5-46b8-8c74-a6bd3bf78c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetadataRecorder">
+      <UniqueIdentifier>{975b7fbc-3dd1-42df-b604-a3251938ffd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statistics">
+      <UniqueIdentifier>{660832fe-4907-46c9-a123-2bfd6737622f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TweakMenu">
+      <UniqueIdentifier>{134293df-2f45-4eeb-b86a-2c05408d1360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{e40e632d-c7b1-45bf-b535-642db44957cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\PoseModifier">
+      <UniqueIdentifier>{a698e3ac-767e-4478-96e8-c38e5f5db2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LivePreview">
+      <UniqueIdentifier>{89d7f320-ece3-4927-83e0-5417562ea452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Checkpoint">
+      <UniqueIdentifier>{39a7795d-2ba1-46f7-b0fa-17828da22eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSession">
+      <UniqueIdentifier>{c64636fb-0304-4e5a-a114-a3770758f342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForceFeedbackSystem">
+      <UniqueIdentifier>{d974cdc0-1179-424e-aeb2-4133744ce93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedParams">
+      <UniqueIdentifier>{c2aec79c-071d-4090-8372-718fba235692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mannequin">
+      <UniqueIdentifier>{1efbc683-6c0b-4a35-b44d-b4c0566ee087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomActions">
+      <UniqueIdentifier>{6eb17127-3fad-4c1a-88ff-86e93e1ebc57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mannequin\ProceduralClips">
+      <UniqueIdentifier>{a4005160-c97d-462f-9e8d-d78b4a883b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameVolumes">
+      <UniqueIdentifier>{4e043e9e-17f0-41c4-a45a-6385877cc45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameVolumes\VolumeClasses">
+      <UniqueIdentifier>{e61a4841-2715-4516-a455-d2e138f8142a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mannequin\MannequinAG">
+      <UniqueIdentifier>{c853bfe0-19ef-498e-a0d2-59ffe41354e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mannequin\Xml">
+      <UniqueIdentifier>{b92bf80a-b4ec-4519-abf5-a76cb083ca46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mannequin\Experimental">
+      <UniqueIdentifier>{d4a077ad-ba1e-4786-a23b-054ebf8ec6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomEvents">
+      <UniqueIdentifier>{3abf0448-3b3b-457b-aa97-c6199c5f1236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlashUI">
+      <UniqueIdentifier>{82757c4d-6c5c-4519-843e-cd4a53de345f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlashUI\Lua">
+      <UniqueIdentifier>{228c63c8-289d-4e87-8c53-7211d56d7cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlashUI\Nodes">
+      <UniqueIdentifier>{38b83f33-e5a1-4182-9f06-8ca9805603ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SegmentedWorld">
+      <UniqueIdentifier>{9211a3c2-2550-4d93-bcea-6f3bc513b837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerProfiles\jsmn">
+      <UniqueIdentifier>{a1ef8f3c-ae1c-4682-8ac0-61ca20e437af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Game Object">
+      <UniqueIdentifier>{cf0e0291-9698-4388-8064-e0261a60022e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\System Files">
+      <UniqueIdentifier>{acc92878-c7ac-40d3-ba62-845f66bc64ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\XML Save Games">
+      <UniqueIdentifier>{51c1957b-f3c3-4d42-8b8e-36b0d464079f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplayRecorder">
+      <UniqueIdentifier>{4d31a803-385d-4ed5-9c6e-b308e4b813aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplayRecorder\Gameplay Analyst">
+      <UniqueIdentifier>{f3dd8e00-fa21-42fa-9f7a-ad4cf0fcbdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActionMaps">
+      <UniqueIdentifier>{b57ccf87-ae7e-4698-84d4-c3cb491482cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{6bb214e1-b4af-4bc4-bac2-4fb030b5e84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlowSystem">
+      <UniqueIdentifier>{8ae97fec-e07d-40c1-9dbc-cf6e51a0068a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlowSystem\Nodes">
+      <UniqueIdentifier>{6071eea6-9f89-40fc-83fc-15c699fa0490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlowSystem\Nodes\Vehicle">
+      <UniqueIdentifier>{9916d6db-268d-42bd-a542-e59383f9b79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlowSystem\Inspectors">
+      <UniqueIdentifier>{2ccef747-e1a2-4679-9528-1ddcfec88ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlowSystem\Modules">
+      <UniqueIdentifier>{3fbc7e36-6b2b-43ad-ae29-fb37c45580ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlowSystem\UnitTests">
+      <UniqueIdentifier>{1313a8e3-1f08-4d4d-8ad1-63ea76e55430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem">
+      <UniqueIdentifier>{08b667e5-d409-4772-a11e-e8e97255547b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Script">
+      <UniqueIdentifier>{aaac18ca-b85b-49ec-a523-17e7cbfc72b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Views">
+      <UniqueIdentifier>{66472176-a0b7-4cd3-864a-e4fd463aa500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Parts">
+      <UniqueIdentifier>{fc765a2d-d14f-4483-aea0-c4cba0139252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Main">
+      <UniqueIdentifier>{87d6c250-4525-43e3-aecd-8d64087d29fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Seat Actions">
+      <UniqueIdentifier>{5236988c-3848-4572-8819-4198601c9b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Actions">
+      <UniqueIdentifier>{289ccad2-326f-4a84-afe7-1e88efef719d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Damages">
+      <UniqueIdentifier>{cb7f91e0-ef6a-4b8a-ade2-1b79edbe31af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Damages\Damage Behaviors">
+      <UniqueIdentifier>{19b7c0ee-e4f5-485f-b321-53fa692b01d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Network">
+      <UniqueIdentifier>{da215c3f-a486-4263-b89d-88be64a23cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehicleSystem\Animation">
+      <UniqueIdentifier>{49f224cc-06dd-4e78-93b3-03bcc127b477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewSystem">
+      <UniqueIdentifier>{4a487399-2e71-4588-bbd8-49959b01840d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PhysicsHelpers">
+      <UniqueIdentifier>{c294c148-69ce-4dcd-92c2-7f5b54c0d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{91aa36fb-f7fb-452b-85eb-d708aa12888f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Context Establishment Tasks">
+      <UniqueIdentifier>{24b7bc6c-f836-4e37-b665-5a2442bcc21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Helpers">
+      <UniqueIdentifier>{2d05e796-095b-4808-b46e-3e3735a570a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Core">
+      <UniqueIdentifier>{0864cfe8-06ba-4891-979c-2e4a0ad49fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Voice">
+      <UniqueIdentifier>{ece601ba-9142-44a5-95c0-508905a60802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Breakability">
+      <UniqueIdentifier>{8c6e6b87-f8c4-4c77-baad-fe69fa209890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\GameStats">
+      <UniqueIdentifier>{434f5ec5-2776-4b79-ae92-4226ce182c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemSystem">
+      <UniqueIdentifier>{9bddb7bd-987d-402f-a3cc-9b3fcfa11395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelSystem">
+      <UniqueIdentifier>{2e8fac34-1682-4aca-8f77-0cf88beb3519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameRules">
+      <UniqueIdentifier>{0cd8fadf-bd4f-4539-a875-393448208cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DialogSystem">
+      <UniqueIdentifier>{27916b44-76bb-4a65-aaf0-7497f5473cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActorSystem">
+      <UniqueIdentifier>{cd8bb672-60f6-42eb-9fea-895b3d5e7989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RangeSignaling">
+      <UniqueIdentifier>{826934d9-bd9a-4c9a-b5b6-e28a875a6468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SignalTimers">
+      <UniqueIdentifier>{ad68d93a-ec78-4d90-985e-8ef2a5e94504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TimeDemoRecorder">
+      <UniqueIdentifier>{b4b7d06b-7d98-4a21-b637-46d040f24b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualLog">
+      <UniqueIdentifier>{2de9d854-4ce4-4d3b-a2b3-62d5bab2cffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{f47a7805-4cfa-45b2-be3d-f14143106928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\CooperativeAnimationManager">
+      <UniqueIdentifier>{e988f097-56d3-4748-ab32-130a2b243e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LipSync">
+      <UniqueIdentifier>{d6f59aca-a884-468d-91c8-538e4309cc1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Level.h">
+      <Filter>LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSystem.h">
+      <Filter>LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorSystem.h">
+      <Filter>ActorSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_ActorSystem.h">
+      <Filter>ActorSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="IActionMapManager.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IActorSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimatedCharacter.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimationGraph.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICheckPointSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICooperativeAnimationManager.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IEffectSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IForceFeedbackSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObjectSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGamePhysicsSettings.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameplayRecorder.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameRulesSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameSessionHandler.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IInteractor.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IItem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IItemSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ILevelSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ILoadGame.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMetadataRecorder.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMovementController.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerProfiles.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IRangeSignaling.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISaveGame.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISharedParamsManager.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISubtitleManager.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ITweakMenuController.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IUIDraw.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVehicleSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewSystem.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IWeapon.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IWorldQuery.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionFilter.h">
+      <Filter>ActionMaps</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionMap.h">
+      <Filter>ActionMaps</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionMapManager.h">
+      <Filter>ActionMaps</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_ActionMapManager.h">
+      <Filter>ActionMaps</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewSystem\View.h">
+      <Filter>ViewSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewSystem\ViewSystem.h">
+      <Filter>ViewSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentManager.h">
+      <Filter>ItemSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>ItemSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemParams.h">
+      <Filter>ItemSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSystem.h">
+      <Filter>ItemSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_Inventory.h">
+      <Filter>ItemSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_ItemSystem.h">
+      <Filter>ItemSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalTimers\PersonalSignalTimer.h">
+      <Filter>SignalTimers</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalTimers\SignalTimers.h">
+      <Filter>SignalTimers</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualLog\VisualLog.h">
+      <Filter>VisualLog</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeSignalingSystem\AngleAlert.h">
+      <Filter>RangeSignaling</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeSignalingSystem\PersonalRangeSignaling.h">
+      <Filter>RangeSignaling</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeSignalingSystem\Range.h">
+      <Filter>RangeSignaling</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeSignalingSystem\RangeSignaling.h">
+      <Filter>RangeSignaling</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_VehicleSystem.h">
+      <Filter>VehicleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleCVars.h">
+      <Filter>VehicleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleModificationParams.h">
+      <Filter>VehicleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleParams.h">
+      <Filter>VehicleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem.h">
+      <Filter>VehicleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\ScriptBind_Vehicle.h">
+      <Filter>VehicleSystem\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\ScriptBind_VehicleSeat.h">
+      <Filter>VehicleSystem\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleViewActionThirdPerson.h">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleViewBase.h">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleViewFirstPerson.h">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleViewThirdPerson.h">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartAnimated.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartAnimatedJoint.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartAttachment.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartBase.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartDetachedEntity.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartEntity.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartLight.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartMassBox.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartParticleEffect.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartStatic.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartSubPart.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartSubPartWheel.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartSuspensionPart.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartTread.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\Vehicle.h">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleAnimation.h">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleComponent.h">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleHelper.h">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeat.h">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatGroup.h">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleUtils.h">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionAnimation.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionLights.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionMovement.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionPassengerIK.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionRotateTurret.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionSound.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionSteeringWheel.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionWeapons.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleUsableActionEnter.h">
+      <Filter>VehicleSystem\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleUsableActionFlip.h">
+      <Filter>VehicleSystem\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamages.h">
+      <Filter>VehicleSystem\Damages</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamagesGroup.h">
+      <Filter>VehicleSystem\Damages</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamagesTemplateRegistry.h">
+      <Filter>VehicleSystem\Damages</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorAISignal.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorDestroy.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorDetachPart.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorDisableSeatAction.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorEffect.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorGroup.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorHitPassenger.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorImpulse.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorIndicator.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorMovementNotification.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorSink.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleDamageBehaviorSpawnDebris.h">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatSerializer.h">
+      <Filter>VehicleSystem\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="AIDebugRenderer.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIGroupProxy.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIHandler.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIProxy.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIProxyManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\CommunicationHandler.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\CommunicationVoiceLibrary.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\CommunicationVoiceTestManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\FlowData.h">
+      <Filter>FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\FlowGraph.h">
+      <Filter>FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\FlowSerialize.h">
+      <Filter>FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\FlowSystem.h">
+      <Filter>FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\FlowSystemCVars.h">
+      <Filter>FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowBaseNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowCompositeNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowConditionNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowDelayNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowEntityNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowLogNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowNodeAIAction.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowNodeStereoparameters.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowNoiseNodes.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowScriptedNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowStartNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowTimeNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowTrackEventNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehicleAttachment.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehicleBase.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehicleDamage.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehicleHandbrake.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehicleLights.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehicleMoveActionMult.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehicleMovement.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehiclePassenger.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehicleSeat.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\Vehicle\FlowVehicleTurret.h">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Inspectors\FlowFilters.h">
+      <Filter>FlowSystem\Inspectors</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Inspectors\FlowInspectorDefault.h">
+      <Filter>FlowSystem\Inspectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\GameSerialize.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\GameSerializeHelpers.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLScriptLoader.h">
+      <Filter>Serialization\Script XML Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\SerializeScriptTableReader.h">
+      <Filter>Serialization\Serialize to script</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\SerializeScriptTableWriter.h">
+      <Filter>Serialization\Serialize to script</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\BinarySerializeHelper.h">
+      <Filter>Serialization\Binary Save Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\SerializeReaderXMLCPBin.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\SerializeWriterXMLCPBin.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\XMLCPB_Common.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\XMLCPB_Utils.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Writer\XMLCPB_AttrSetTableWriter.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Writer\XMLCPB_AttrWriter.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Writer\XMLCPB_BufferWriter.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Writer\XMLCPB_NodeLiveWriter.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Writer\XMLCPB_StringTableWriter.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Writer\XMLCPB_Writer.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Writer\XMLCPB_WriterInterface.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Writer\XMLCPB_ZLibCompressor.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Reader\XMLCPB_AttrReader.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Reader\XMLCPB_AttrSetTableReader.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Reader\XMLCPB_BufferReader.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Reader\XMLCPB_NodeLiveReader.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Reader\XMLCPB_Reader.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Reader\XMLCPB_ReaderInterface.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XMLCPBin\Reader\XMLCPB_StringTableReader.h">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XmlLoadGame.h">
+      <Filter>Serialization\XML Save Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XmlSaveGame.h">
+      <Filter>Serialization\XML Save Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization\XmlSerializeHelper.h">
+      <Filter>Serialization\XML Save Games</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\CameraSource.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\GameObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\GameObjectDispatch.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\GameObjectSystem.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Interactor.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\WorldQuery.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesSystem.h">
+      <Filter>GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationGraph\AnimationGraphCVars.h">
+      <Filter>Animation\System Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationGraph\AnimationTrigger.h">
+      <Filter>Animation\System Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationGraph\AnimatedCharacter.h">
+      <Filter>Animation\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationGraph\DebugHistory.h">
+      <Filter>Animation\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSystem\IGameStateRecorder.h">
+      <Filter>TimeDemoRecorder</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSystem\TimeDemoRecorder.h">
+      <Filter>TimeDemoRecorder</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\IMFXEffect.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\MaterialEffects.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\MaterialEffectsCVars.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialFGManager.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\MFXDecalEffect.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\MFXEffect.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="materialeffects\MFXFlowGraphEffect.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\MFXForceFeedbackFX.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\MFXParticleEffect.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\MFXRandomEffect.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\MFXSoundEffect.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialEffects\ScriptBind_MaterialEffects.h">
+      <Filter>MaterialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTokens\GameTokenSystem.h">
+      <Filter>GameTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSystem\BloodSplats.h">
+      <Filter>EffectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSystem\Effect.h">
+      <Filter>EffectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSystem\EffectSystem.h">
+      <Filter>EffectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSystem\GroundEffect.h">
+      <Filter>EffectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDraw\UIDraw.h">
+      <Filter>UIDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="PersistantDebug.h">
+      <Filter>DebugHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\BMPHelper.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\PlayerProfile.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\PlayerProfileImplConsole.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\PlayerProfileImplFS.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\PlayerProfileImplNoSave.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\PlayerProfileImplRSFHelper.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\PlayerProfileManager.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\RichSaveGameTypes.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\RichSaveGameTypes_info.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem\DialogActorContext.h">
+      <Filter>DialogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem\DialogCommon.h">
+      <Filter>DialogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem\DialogLoader.h">
+      <Filter>DialogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem\DialogLoaderMK2.h">
+      <Filter>DialogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem\DialogScript.h">
+      <Filter>DialogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem\DialogSession.h">
+      <Filter>DialogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem\DialogSystem.h">
+      <Filter>DialogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSystem\ScriptBind_DialogSystem.h">
+      <Filter>DialogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleManager.h">
+      <Filter>DialogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CVarListProcessor.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetDebug.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkCVars.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkStallTicker.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CET_ActionMap.h">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CET_ClassRegistry.h">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CET_CVars.h">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CET_EntitySystem.h">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CET_GameRules.h">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CET_LevelLoading.h">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CET_NetConfig.h">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CET_View.h">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetActionSync.h">
+      <Filter>Network\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ObjectSelector.h">
+      <Filter>Network\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SensedInclusionSet.h">
+      <Filter>Network\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClassRegistryReplicator.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameChannel.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameClientChannel.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameClientNub.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameContext.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameQueryListener.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameServerChannel.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameServerNub.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\PhysicsSync.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ScriptBind_Network.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ScriptRMI.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ScriptSerialize.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ServerTimer.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\VoiceController.h">
+      <Filter>Network\Voice</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\VoiceListener.h">
+      <Filter>Network\Voice</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\BreakReplicator.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\BreakReplicator_Simple.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\BreakReplicatorGameObject.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\DeformingBreak.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ExplosiveObjectState.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GenericPlaybackListener.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GenericRecordingListener.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\IBreakPlaybackStream.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\IBreakReplicatorListener.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\IProceduralBreakType.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\JointBreak.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NullListener.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NullStream.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\PlaneBreak.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ProceduralBreak.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ProceduralBreakingBaseListener.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ProceduralBreakingPlaybackListener.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ProceduralBreakingRecordingListener.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SimulateCreateEntityPart.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SimulateRemoveEntityParts.h">
+      <Filter>Network\Breakability</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameStats.h">
+      <Filter>Network\GameStats</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteControl\RConClientListener.h">
+      <Filter>RCon</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteControl\RConServerListener.h">
+      <Filter>RCon</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleHttpServer\SimpleHttpServerListener.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayRecorder\GameplayRecorder.h">
+      <Filter>GameplayRecorder</Filter>
+    </ClInclude>
+    <ClInclude Include="Analyst.h">
+      <Filter>GameplayRecorder\Gameplay Analyst</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics\GameStatistics.h">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics\ScriptBind_GameStatistics.h">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics\StatisticsHelpers.h">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics\StatsSizer.h">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\LuaVarUtils.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakCommon.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakItemSimple.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakMenu.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakMenuController.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakMetadata.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakMetadataCommand.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakMetadataCVAR.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakMetadataLUA.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakTraverser.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CooperativeAnimationManager\CooperativeAnimation.h">
+      <Filter>Animation\CooperativeAnimationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CooperativeAnimationManager\CooperativeAnimationManager.h">
+      <Filter>Animation\CooperativeAnimationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\PoseModifier\IKTorsoAim.h">
+      <Filter>Animation\PoseModifier</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\PoseModifier\LookAtSimple.h">
+      <Filter>Animation\PoseModifier</Filter>
+    </ClInclude>
+    <ClInclude Include="LivePreview\RealtimeRemoteUpdate.h">
+      <Filter>LivePreview</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPoint\CheckPointSystem.h">
+      <Filter>Checkpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSession\GameSessionHandler.h">
+      <Filter>GameSession</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceFeedbackSystem\ForceFeedbackSystem.h">
+      <Filter>ForceFeedbackSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedParams\ISharedParams.h">
+      <Filter>SharedParams</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedParams\SharedParamsManager.h">
+      <Filter>SharedParams</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedParams\SharedParamsTypeInfo.h">
+      <Filter>SharedParams</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionGame.h" />
+    <ClInclude Include="CallbackTimer.h" />
+    <ClInclude Include="CryAction.h" />
+    <ClInclude Include="CryActionCVars.h" />
+    <ClInclude Include="CryActionPhysicQueues.h" />
+    <ClInclude Include="DevMode.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ScriptBind_Action.h" />
+    <ClInclude Include="TimeOfDayScheduler.h" />
+    <ClInclude Include="TweakMenu\TweakMetadataGametoken.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakMetadataVariable.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TweakMenu\TweakMetadataCallback.h">
+      <Filter>TweakMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionOrientatePartToView.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleNoiseGenerator.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartAnimatedChar.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionOrientateBoneToView.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionShakeParts.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleViewFirstPerson_Bone.h">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionRotateBone.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomActions\CustomAction.h">
+      <Filter>CustomActions</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomActions\CustomActionManager.h">
+      <Filter>CustomActions</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowCustomActionNodes.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionWeaponsBone.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleViewThirdPerson_Bone.h">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayedPlaneBreak.h">
+      <Filter>PhysicsHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICryMannequin.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\ActionScope.h">
+      <Filter>Mannequin</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\ActionController.h">
+      <Filter>Mannequin</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\AnimationDatabase.h">
+      <Filter>Mannequin</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\AnimationDatabaseManager.h">
+      <Filter>Mannequin</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\MannequinInterface.h">
+      <Filter>Mannequin</Filter>
+    </ClInclude>
+    <ClInclude Include="ICryMannequinEditor.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\FirstPersonHandIKContext.h">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClInclude>
+    <ClInclude Include="GameVolumes\GameVolumesManager.h">
+      <Filter>GameVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameVolumes\GameVolume_Water.h">
+      <Filter>GameVolumes\VolumeClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableGlassSystem.h">
+      <Filter>PhysicsHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICryMannequinDefs.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\MannequinAGState.h">
+      <Filter>Mannequin\MannequinAG</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\MannequinAGExistanceQuery.h">
+      <Filter>Mannequin\MannequinAG</Filter>
+    </ClInclude>
+    <ClInclude Include="ICryMannequinUserParams.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\MannequinAGDefs.h">
+      <Filter>Mannequin\MannequinAG</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\Animation\VehicleAnimationComponent.h">
+      <Filter>VehicleSystem\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\Animation\VehicleSeatAnimActions.h">
+      <Filter>VehicleSystem\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartEntityDelayedDetach.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\Xml\TagDefinitionXml.h">
+      <Filter>Mannequin\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehiclePartPulsingLight.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\AnimActionTriState.h">
+      <Filter>Mannequin\Experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="WrinkleMapRenderProxyCallback.h" />
+    <ClInclude Include="VehicleSystem\VehiclePartWaterRipplesGenerator.h">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEvents\CustomEventsManager.h">
+      <Filter>CustomEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowPrefabNodes.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationGraph\AnimatedCharacterEventProxies.h">
+      <Filter>Animation\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Mannequin\MannequinDebug.h">
+      <Filter>Mannequin</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleSystem\VehicleSeatActionPassiveAnimation.h">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\BehaviorTreeNodes_Action.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SerializeDirHelper.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SerializeBits.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSystem\ITestModule.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\DebugBreakage.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Modules\FlowModuleNodes.h">
+      <Filter>FlowSystem\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Modules\Module.h">
+      <Filter>FlowSystem\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Modules\ModuleManager.h">
+      <Filter>FlowSystem\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\FlowGraphDebugger.h">
+      <Filter>FlowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\ScriptBind_UIAction.h">
+      <Filter>FlashUI\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIActionNodes.h">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIArrayNodes.h">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIBaseNode.h">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIDisplayNodes.h">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIElementNodes.h">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIEventNodes.h">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIUtilNodes.h">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUI.h">
+      <Filter>FlashUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIAction.h">
+      <Filter>FlashUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIActionEvents.h">
+      <Filter>FlashUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIElement.h">
+      <Filter>FlashUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashUI\FlashUIEventSystem.h">
+      <Filter>FlashUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowSystem\Nodes\FlowBaseXmlNode.h">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentedWorld\SegmentedWorld.h">
+      <Filter>SegmentedWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentedWorld\SegmentNode.h">
+      <Filter>SegmentedWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleHttpServer\SimpleHttpServerWebsocketEchoListener.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\PlayerProfileImplDurango.h">
+      <Filter>PlayerProfiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfiles\jsmn\jsmn.h">
+      <Filter>PlayerProfiles\jsmn</Filter>
+    </ClInclude>
+    <ClInclude Include="ICryMannequinTagDefs.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\PoseAligner\PoseAligner.h">
+      <Filter>Animation\PoseModifier</Filter>
+    </ClInclude>
+    <ClInclude Include="AIFaceManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameStatsConfig.h">
+      <Filter>Network\GameStats</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeData.h">
+      <Filter>GameplayRecorder</Filter>
+    </ClInclude>
+    <ClInclude Include="GameXmlParamReader.h" />
+    <ClInclude Include="GameTokens\GameToken.h">
+      <Filter>GameTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTokens\ScriptBind_GameToken.h">
+      <Filter>GameTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\MannequinObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LipSync\LipSync_TransitionQueue.h">
+      <Filter>LipSync</Filter>
+    </ClInclude>
+    <ClInclude Include="LipSync\LipSync_FacialInstance.h">
+      <Filter>LipSync</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Level.cpp">
+      <Filter>LevelSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSystem.cpp">
+      <Filter>LevelSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorSystem.cpp">
+      <Filter>ActorSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_ActorSystem.cpp">
+      <Filter>ActorSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionFilter.cpp">
+      <Filter>ActionMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionMap.cpp">
+      <Filter>ActionMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionMapManager.cpp">
+      <Filter>ActionMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_ActionMapManager.cpp">
+      <Filter>ActionMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewSystem\View.cpp">
+      <Filter>ViewSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewSystem\ViewSystem.cpp">
+      <Filter>ViewSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentManager.cpp">
+      <Filter>ItemSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>ItemSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemParams.cpp">
+      <Filter>ItemSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSystem.cpp">
+      <Filter>ItemSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_Inventory.cpp">
+      <Filter>ItemSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_ItemSystem.cpp">
+      <Filter>ItemSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalTimers\PersonalSignalTimer.cpp">
+      <Filter>SignalTimers</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalTimers\SignalTimers.cpp">
+      <Filter>SignalTimers</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualLog\VisualLog.cpp">
+      <Filter>VisualLog</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeSignalingSystem\AngleAlert.cpp">
+      <Filter>RangeSignaling</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeSignalingSystem\PersonalRangeSignaling.cpp">
+      <Filter>RangeSignaling</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeSignalingSystem\Range.cpp">
+      <Filter>RangeSignaling</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeSignalingSystem\RangeSignaling.cpp">
+      <Filter>RangeSignaling</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_VehicleSystem.cpp">
+      <Filter>VehicleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleCVars.cpp">
+      <Filter>VehicleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleModificationParams.cpp">
+      <Filter>VehicleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem.cpp">
+      <Filter>VehicleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSystem_FactoryRegistration.cpp">
+      <Filter>VehicleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\ScriptBind_Vehicle.cpp">
+      <Filter>VehicleSystem\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\ScriptBind_VehicleSeat.cpp">
+      <Filter>VehicleSystem\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleViewActionThirdPerson.cpp">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleViewBase.cpp">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleViewFirstPerson.cpp">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleViewThirdPerson.cpp">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartAnimated.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartAnimatedJoint.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartAttachment.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartBase.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartDetachedEntity.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartEntity.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartLight.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartMassBox.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartParticleEffect.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartStatic.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartSubPart.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartSubPartWheel.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartSuspensionPart.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartTread.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\Vehicle.cpp">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleAnimation.cpp">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleComponent.cpp">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleHelper.cpp">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeat.cpp">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatGroup.cpp">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleUtils.cpp">
+      <Filter>VehicleSystem\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionAnimation.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionLights.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionMovement.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionPassengerIK.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionRotateTurret.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionSound.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionSteeringWheel.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionWeapons.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleUsableActionEnter.cpp">
+      <Filter>VehicleSystem\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleUsableActionFlip.cpp">
+      <Filter>VehicleSystem\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamages.cpp">
+      <Filter>VehicleSystem\Damages</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamagesGroup.cpp">
+      <Filter>VehicleSystem\Damages</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamagesTemplateRegistry.cpp">
+      <Filter>VehicleSystem\Damages</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorAISignal.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorDestroy.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorDetachPart.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorDisableSeatAction.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorEffect.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorGroup.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorHitPassenger.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorImpulse.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorIndicator.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorMovementNotification.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorSink.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleDamageBehaviorSpawnDebris.cpp">
+      <Filter>VehicleSystem\Damages\Damage Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatSerializer.cpp">
+      <Filter>VehicleSystem\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="AIDebugRenderer.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIGroupProxy.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIHandler.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIProxy.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIProxyManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\CommunicationHandler.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\CommunicationVoiceLibrary.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\CommunicationVoiceTestManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\FlowData.cpp">
+      <Filter>FlowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\FlowGraph.cpp">
+      <Filter>FlowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\FlowSerialize.cpp">
+      <Filter>FlowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\FlowSystem.cpp">
+      <Filter>FlowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\FlowSystemCVars.cpp">
+      <Filter>FlowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\AngularInterpolatorNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\ComputeLightingNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\EntitiesInRangeNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowCameraNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowCompositeNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowConditionNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowCVarsNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowDelayNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowEngineEffectsNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowEngineNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowEntityNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowEnvironmentNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowExecuteStringNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowFlashInvokeNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowGameNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowHUDNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowInputNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowInterpolNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowInventoryNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowLogicNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowLogInput.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowLogNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowMathNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowMissionNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowMovieNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowNode_ColliderMode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowNodeAI.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowNodeAIAction.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowNodeStereoparameters.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowNoiseNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowPhysicsNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowPlatformNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowPlotNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowSaveGameNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowScriptedNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowStartNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowStatsNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowStringNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowTimeNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowTrackEventNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowWeaponNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\GameTokenNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\IndexerNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\LinearInterpolatorNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\MultiplexerNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\OwnerAngularInterpolatorNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\OwnerAngularRotationNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\OwnerLinearInterpolatorNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\PlayCGANode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\PlaySequenceNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleAttachment.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleBase.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleDamage.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleHandbrake.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleHorn.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleLights.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleMoveActionMult.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleMovement.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehiclePassenger.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleSeat.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\Vehicle\FlowVehicleTurret.cpp">
+      <Filter>FlowSystem\Nodes\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Inspectors\FlowFilters.cpp">
+      <Filter>FlowSystem\Inspectors</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Inspectors\FlowInspectorDefault.cpp">
+      <Filter>FlowSystem\Inspectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\GameSerialize.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\GameSerialize_FactoryRegistration.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLScriptLoader.cpp">
+      <Filter>Serialization\Script XML Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\SerializeScriptTableReader.cpp">
+      <Filter>Serialization\Serialize to script</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\SerializeScriptTableWriter.cpp">
+      <Filter>Serialization\Serialize to script</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\BinarySerializeHelper.cpp">
+      <Filter>Serialization\Binary Save Games</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\SerializeReaderXMLCPBin.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\SerializeWriterXMLCPBin.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\XMLCPB_Common.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\XMLCPB_Utils.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Writer\XMLCPB_AttrSetTableWriter.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Writer\XMLCPB_AttrWriter.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Writer\XMLCPB_BufferWriter.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Writer\XMLCPB_NodeLiveWriter.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Writer\XMLCPB_StringTableWriter.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Writer\XMLCPB_Writer.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Writer\XMLCPB_ZLibCompressor.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Reader\XMLCPB_AttrReader.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Reader\XMLCPB_AttrSetTableReader.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Reader\XMLCPB_BufferReader.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Reader\XMLCPB_NodeLiveReader.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Reader\XMLCPB_Reader.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XMLCPBin\Reader\XMLCPB_StringTableReader.cpp">
+      <Filter>Serialization\Binary Save Games\XMLCPBin\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XmlLoadGame.cpp">
+      <Filter>Serialization\XML Save Games</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XmlSaveGame.cpp">
+      <Filter>Serialization\XML Save Games</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialization\XmlSerializeHelper.cpp">
+      <Filter>Serialization\XML Save Games</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\CameraSource.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GameObjectDispatch.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GameObjectSystem.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GameObjectSystem_FactoryRegistration.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Interactor.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\WorldQuery.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesSystem.cpp">
+      <Filter>GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationGraph\AnimationGraphCVars.cpp">
+      <Filter>Animation\System Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationGraph\AnimationTrigger.cpp">
+      <Filter>Animation\System Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationGraph\AnimatedCharacter.cpp">
+      <Filter>Animation\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationGraph\AnimatedCharacterPPS.cpp">
+      <Filter>Animation\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationGraph\AnimatedCharacterPPS_Common.cpp">
+      <Filter>Animation\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationGraph\AnimatedCharacterPPS_Debug.cpp">
+      <Filter>Animation\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationGraph\AnimatedCharacterPPS_ParamCalculation.cpp">
+      <Filter>Animation\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationGraph\DebugHistory.cpp">
+      <Filter>Animation\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSystem\TimeDemoRecorder.cpp">
+      <Filter>TimeDemoRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\IMFXEffect.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\MaterialEffects.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\MaterialEffectsCVars.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="materialeffects\MaterialFGManager.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="materialeffects\MaterialHUDFXNodes.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\MFXDecalEffect.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\MFXEffect.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="materialeffects\MFXFlowGraphEffect.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\MFXForceFeedbackFX.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\MFXParticleEffect.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\MFXRandomEffect.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\MFXSoundEffect.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialEffects\ScriptBind_MaterialEffects.cpp">
+      <Filter>MaterialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTokens\GameTokenSystem.cpp">
+      <Filter>GameTokens</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSystem\BloodSplats.cpp">
+      <Filter>EffectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSystem\Effect.cpp">
+      <Filter>EffectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSystem\EffectSystem.cpp">
+      <Filter>EffectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSystem\GroundEffect.cpp">
+      <Filter>EffectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDraw\UIDraw.cpp">
+      <Filter>UIDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityTags.cpp">
+      <Filter>DebugHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="PersistantDebug.cpp">
+      <Filter>DebugHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProfiles\BMPHelper.cpp">
+      <Filter>PlayerProfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProfiles\PlayerProfile.cpp">
+      <Filter>PlayerProfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProfiles\PlayerProfileImplConsole.cpp">
+      <Filter>PlayerProfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProfiles\PlayerProfileImplFS.cpp">
+      <Filter>PlayerProfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProfiles\PlayerProfileImplRSFHelper.cpp">
+      <Filter>PlayerProfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProfiles\PlayerProfileManager.cpp">
+      <Filter>PlayerProfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSystem\DialogActorContext.cpp">
+      <Filter>DialogSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSystem\DialogLoader.cpp">
+      <Filter>DialogSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSystem\DialogLoaderMK2.cpp">
+      <Filter>DialogSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSystem\DialogScript.cpp">
+      <Filter>DialogSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSystem\DialogSession.cpp">
+      <Filter>DialogSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSystem\DialogSystem.cpp">
+      <Filter>DialogSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSystem\ScriptBind_DialogSystem.cpp">
+      <Filter>DialogSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleManager.cpp">
+      <Filter>DialogSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CVarListProcessor.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetDebug.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkCVars.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkStallTicker.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CET_ActionMap.cpp">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CET_ClassRegistry.cpp">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CET_CVars.cpp">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CET_EntitySystem.cpp">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CET_GameRules.cpp">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CET_LevelLoading.cpp">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CET_NetConfig.cpp">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CET_View.cpp">
+      <Filter>Network\Context Establishment Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ObjectSelector.cpp">
+      <Filter>Network\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClassRegistryReplicator.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameChannel.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameClientChannel.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameClientNub.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameContext.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameContext_RegisterExtensions.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameQueryListener.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameServerChannel.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameServerNub.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PhysicsSync.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ScriptBind_Network.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ScriptRMI.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ScriptSerialize.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ServerTimer.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\VoiceController.cpp">
+      <Filter>Network\Voice</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\VoiceListener.cpp">
+      <Filter>Network\Voice</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\BreakReplicator.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\BreakReplicator_Simple.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\DeformingBreak.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ExplosiveObjectState.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GenericPlaybackListener.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GenericRecordingListener.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\JointBreak.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PlaneBreak.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ProceduralBreak.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ProceduralBreakingBaseListener.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ProceduralBreakingPlaybackListener.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ProceduralBreakingRecordingListener.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SimulateRemoveEntityParts.cpp">
+      <Filter>Network\Breakability</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameStats.cpp">
+      <Filter>Network\GameStats</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteControl\RConClientListener.cpp">
+      <Filter>RCon</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteControl\RConServerListener.cpp">
+      <Filter>RCon</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleHttpServer\SimpleHttpServerListener.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayRecorder\GameplayRecorder.cpp">
+      <Filter>GameplayRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="Analyst.cpp">
+      <Filter>GameplayRecorder\Gameplay Analyst</Filter>
+    </ClCompile>
+    <ClCompile Include="MetadataRecorder\MetadataRecorder.cpp">
+      <Filter>MetadataRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics\GameStatistics.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics\ScriptBind_GameStatistics.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics\StatisticsHelpers.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics\StatsSizer.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\LuaVarUtils.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakCommon.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakItemSimple.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakMenu.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakMenuController.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakMetadata.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakMetadataCommand.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakMetadataCVAR.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakMetadataLUA.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakTraverser.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="CooperativeAnimationManager\CooperativeAnimation.cpp">
+      <Filter>Animation\CooperativeAnimationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CooperativeAnimationManager\CooperativeAnimationManager.cpp">
+      <Filter>Animation\CooperativeAnimationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\PoseModifier\IKTorsoAim.cpp">
+      <Filter>Animation\PoseModifier</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\PoseModifier\LookAtSimple.cpp">
+      <Filter>Animation\PoseModifier</Filter>
+    </ClCompile>
+    <ClCompile Include="LivePreview\RealtimeRemoteUpdate.cpp">
+      <Filter>LivePreview</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPoint\CheckPointSystem.cpp">
+      <Filter>Checkpoint</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSession\GameSessionHandler.cpp">
+      <Filter>GameSession</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceFeedbackSystem\ForceFeedbackSystem.cpp">
+      <Filter>ForceFeedbackSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedParams\SharedParamsManager.cpp">
+      <Filter>SharedParams</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionGame.cpp" />
+    <ClCompile Include="CallbackTimer.cpp" />
+    <ClCompile Include="CryAction.cpp" />
+    <ClCompile Include="CryActionCVars.cpp" />
+    <ClCompile Include="DevMode.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ScriptBind_Action.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="TimeOfDayScheduler.cpp" />
+    <ClCompile Include="FlowSystem\Nodes\FlowKinectNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakMetadataGametoken.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakMetadataVariable.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowNaturalPointNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowAttachmentNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="TweakMenu\TweakMetadataCallback.cpp">
+      <Filter>TweakMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionOrientatePartToView.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartAnimatedChar.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionOrientateBoneToView.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionShakeParts.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleViewFirstPerson_Bone.cpp">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionRotateBone.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomActions\CustomAction.cpp">
+      <Filter>CustomActions</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomActions\CustomActionManager.cpp">
+      <Filter>CustomActions</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowCustomActionNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionWeaponsBone.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleViewThirdPerson_Bone.cpp">
+      <Filter>VehicleSystem\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayedPlaneBreak.cpp">
+      <Filter>PhysicsHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipAimAround.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipAimPose.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipLookAround.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipPlaySound.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ActionScope.cpp">
+      <Filter>Mannequin</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ActionController.cpp">
+      <Filter>Mannequin</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\AnimationDatabase.cpp">
+      <Filter>Mannequin</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\AnimationDatabaseManager.cpp">
+      <Filter>Mannequin</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\MannequinInterface.cpp">
+      <Filter>Mannequin</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipForceFeedback.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\FirstPersonHandIKContext.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="GameVolumes\GameVolumesManager.cpp">
+      <Filter>GameVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipAnimManipulation.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="GameVolumes\GameVolume_Water.cpp">
+      <Filter>GameVolumes\VolumeClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\AnimationEventListenerNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipProps.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakableGlassSystem.cpp">
+      <Filter>PhysicsHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\MannequinAGState.cpp">
+      <Filter>Mannequin\MannequinAG</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\MannequinAGExistanceQuery.cpp">
+      <Filter>Mannequin\MannequinAG</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\Animation\VehicleAnimationComponent.cpp">
+      <Filter>VehicleSystem\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\Animation\VehicleSeatAnimActions.cpp">
+      <Filter>VehicleSystem\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartEntityDelayedDetach.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipsPositioning.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\Xml\TagDefinitionXml.cpp">
+      <Filter>Mannequin\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehiclePartPulsingLight.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\AnimActionTriState.cpp">
+      <Filter>Mannequin\Experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="WrinkleMapRenderProxyCallback.cpp" />
+    <ClCompile Include="VehicleSystem\VehiclePartWaterRipplesGenerator.cpp">
+      <Filter>VehicleSystem\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEvents\CustomEventsManager.cpp">
+      <Filter>CustomEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowPrefabNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowNodeAIHelicopter.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationGraph\AnimatedCharacterEventProxies.cpp">
+      <Filter>Animation\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipEvent.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\MannequinDebug.cpp">
+      <Filter>Mannequin</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleSystem\VehicleSeatActionPassiveAnimation.cpp">
+      <Filter>VehicleSystem\Seat Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipParticleEffect.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\BehaviorTreeNodes_Action.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipAISignal.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Modules\FlowModuleNodes.cpp">
+      <Filter>FlowSystem\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Modules\Module.cpp">
+      <Filter>FlowSystem\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Modules\ModuleManager.cpp">
+      <Filter>FlowSystem\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\FlowGraphDebugger.cpp">
+      <Filter>FlowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\ScriptBind_UIAction.cpp">
+      <Filter>FlashUI\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIActionNodes.cpp">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIArrayNodes.cpp">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIBaseNode.cpp">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIDisplayNodes.cpp">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIElementNodes.cpp">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIEventNodes.cpp">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIUtilNodes.cpp">
+      <Filter>FlashUI\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUI.cpp">
+      <Filter>FlashUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIAction.cpp">
+      <Filter>FlashUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIActionEvents.cpp">
+      <Filter>FlashUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIElement.cpp">
+      <Filter>FlashUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashUI\FlashUIEventSystem.cpp">
+      <Filter>FlashUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowBaseXmlNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowXmlDataNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowXmlFileNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowXmlNavNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowMouseInfo.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentedWorld\SegmentedWorld.cpp">
+      <Filter>SegmentedWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentedWorld\SegmentNode.cpp">
+      <Filter>SegmentedWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\UnitTests\FlowGraphDebuggerUnitTests.cpp">
+      <Filter>FlowSystem\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowMaterialNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleHttpServer\SimpleHttpServerWebsocketEchoListener.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProfiles\jsmn\jsmn.c">
+      <Filter>PlayerProfiles\jsmn</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProfiles\PlayerProfileImplDurango.cpp">
+      <Filter>PlayerProfiles</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowClipCaptureNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowKinectNodesDurango.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.h" />
+    <ClCompile Include="FlowSystem\Nodes\FlowAudioPreloadData.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowAudioTriggerNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowAudioSwitchNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowStopNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowAudioRtpcNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowNodesAIActionSequence.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\PoseAligner\PoseAligner.cpp">
+      <Filter>Animation\PoseModifier</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\PoseAligner\PoseAlignerC3.cpp">
+      <Filter>Animation\PoseModifier</Filter>
+    </ClCompile>
+    <ClCompile Include="Mannequin\ProceduralClipLookPose.cpp">
+      <Filter>Mannequin\ProceduralClips</Filter>
+    </ClCompile>
+    <ClCompile Include="AIFaceManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameStatsConfig.cpp">
+      <Filter>Network\GameStats</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowEntityIterator.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowDebugNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTokens\ScriptBind_GameToken.cpp">
+      <Filter>GameTokens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTokens\GameToken.cpp">
+      <Filter>GameTokens</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowContainerNode.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowSystem\Nodes\FlowOnlineStatsNodes.cpp">
+      <Filter>FlowSystem\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\MannequinObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LipSync\LipSync_TransitionQueue.cpp">
+      <Filter>LipSync</Filter>
+    </ClCompile>
+    <ClCompile Include="LipSync\LipSync_FacialInstance.cpp">
+      <Filter>LipSync</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CryAction.rc" />
+  </ItemGroup>
+</Project>
