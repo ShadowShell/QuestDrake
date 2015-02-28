@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- IMPORTANT: Hand edit this file only, the UI will break the file. Note that you need to restart VS for changes to take effect -->
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<!-- Default SDKs to include -->
+	<PropertyGroup Label="UserMacros">
+		<PropsFolder Condition="'$(PropsFolder)'==''">$(MSBuildThisFileDirectory)</PropsFolder>
+		<SDKFolder>$(MSBuildThisFileDirectory)..\SDKs\</SDKFolder>
+		<STLport>$(SDKFolder)STLPORT</STLport>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<AdditionalIncludeDirectories Condition="'$(IsEditorPlugin)'!='true'">.;$(PropsFolder)..\CryEngine\CryCommon;$(SDKFolder)boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories Condition="'$(IsEditorPlugin)'=='true'">.;$(PropsFolder)..\CryEngine\CryCommon;$(SDKFolder)boost;$(PropsFolder)..\Sandbox\Editor;$(PropsFolder)..\Sandbox\Editor\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="('$(Platform)'=='Win32') and (('$(Configuration)'=='Release') or ('$(Configuration)'=='Release Server Only'))">
+		<ClCompile>
+			<AdditionalIncludeDirectories Condition="'$(IsRC)'!='true' And '$(IsEditorPlugin)'!='true'">;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ClCompile>
+	</ItemDefinitionGroup>
+</Project>

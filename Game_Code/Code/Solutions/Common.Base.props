@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- IMPORTANT: Hand edit this file only, the UI will break the file. Note that you need to restart VS for changes to take effect -->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+ <!-- Deduce the following settings from the 'Configuration' and 'Platform', they are used later by this and other property sheets
+    BaseConfiguration: Debug | Profile | Performance | Release
+    IsDedicatedServer: true | false
+    BasePlatform: Win | Durango | ORBIS
+    IsLauncher: true | false
+    StaticLink: true | false
+    StaticCRT: true | false
+  -->
+  <PropertyGroup Label="UserMacros">
+    <BaseConfiguration>$(Configuration)</BaseConfiguration>
+    <IsDedicatedServer>false</IsDedicatedServer>
+    <BasePlatform>$(Platform)</BasePlatform>
+    <IsLauncher Condition="'$(IsLauncher)'==''">false</IsLauncher>
+    <StaticLink Condition="'$(StaticLink)'==''">false</StaticLink>
+    <StaticCRTSpecified Condition="'$(StaticCRT)'!=''">true</StaticCRTSpecified>
+    <StaticCRT Condition="'$(StaticCRTSpecified)'!='true'">false</StaticCRT>
+    <PropsFolder Condition="'$(PropsFolder)'==''">$(MSBuildThisFileDirectory)</PropsFolder>
+    <NativeToolchain Condition="'$(NativeToolchain)'==''">true</NativeToolchain> <!-- Enable the use of x64->x64 and x64->x86 toolchains for MSVC based environments, if available -->
+  </PropertyGroup>
+  <PropertyGroup Label="UserMacros" Condition="$(Configuration.Contains('Server Only'))">
+    <BaseConfiguration>$(Configuration.Substring(0, $(Configuration.IndexOf(' '))))</BaseConfiguration>
+    <IsDedicatedServer>true</IsDedicatedServer>
+  </PropertyGroup>
+  <PropertyGroup Label="UserMacros" Condition="'$(Platform)'=='Win32' Or '$(Platform)'=='x64'">
+    <BasePlatform>Win</BasePlatform>
+  </PropertyGroup>
+  <PropertyGroup Label="UserMacros" Condition="$(ProjectName.Contains('Launcher'))">
+    <IsLauncher>true</IsLauncher>
+  </PropertyGroup>
+  <PropertyGroup Label="UserMacros" Condition="'$(Platform)'=='ORBIS' Or '$(BaseConfiguration)'=='Release' Or '$(BaseConfiguration)'=='Performance'">
+    <StaticLink>true</StaticLink>
+  </PropertyGroup>
+  <PropertyGroup Label="UserMacros" Condition="'$(IsRC)'=='true' Or '$(IsEditorPlugin)'=='true'">
+    <!-- Helper for RC projects, use static CRT, but not static linking -->
+    <StaticCRT Condition="'$(StaticCRTSpecified)'!='true'">true</StaticCRT>
+    <StaticLink>false</StaticLink>
+    <IsLauncher Condition="'$(ProjectName)'=='ResourceCompiler'">true</IsLauncher>
+  </PropertyGroup>
+  
+  <!-- Helper code for EaaS release builds
+    These properties need to find out if, when the release configuration is built, what kind of linkage should be used for each project
+    In general, any project that EaaS users have code for, needs to be built (and loaded) as a DLL, since it may be changed after ship
+    Anything else should just be linked into a single .exe -->
+  <PropertyGroup Label="UserMacros" Condition="'$(BasePlatform)'=='Win' And '$(StaticLink)'=='true' And '$(_CryHostGameCode)'=='true'">
+    <_CryGameCodeProjects>CryAction CryEntitySystem CryInput CryScriptSystem GameDll GameDllSDK CryAudioImplWwise</_CryGameCodeProjects>
+    <_CryStaticLinkOverride Condition="$(_CryGameCodeProjects.Contains('$(MSBuildProjectName)'))">true</_CryStaticLinkOverride>
+  </PropertyGroup>
+  <PropertyGroup Label="UserMacros" Condition="'$(StaticLink)'=='true'">
+    <_CryStaticLinkOverride>true</_CryStaticLinkOverride>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(_CryStaticLinkOverride)'=='true'">
+    <StaticLink>false</StaticLink>
+  </PropertyGroup>
+  
+  <!-- We need to set the type of configuration before including VC and MSBuild sheets, because their behavior depends on these properties
+    CharacterSet: MultiByte (Windows, Durango)
+    PlatformToolset: v110 (Windows), v110 (Durango)
+    ApplicationEnvironment: title (Durango)
+    ConfigurationType: Application | DynamicLibrary | StaticLibrary
+  -->
+  <PropertyGroup Label="Configuration" Condition="'$(BasePlatform)'=='Win'">
+    <CharacterSet Condition="'$(CharacterSet)'==''">MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset> <!-- Set this to v120 to use VS2013 compiler. This compiler can be used for compiling the core engine/game, not the editor (plugins) or RC yet -->
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(BasePlatform)'=='Durango'">
+    <ApplicationEnvironment>title</ApplicationEnvironment>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <UseDebugLibraries Condition="'$(BaseConfiguration)'!='Debug'">false</UseDebugLibraries>
+    <UseDebugLibraries Condition="'$(BaseConfiguration)'=='Debug'">false</UseDebugLibraries>
+    <CharacterSet Condition="'$(CharacterSet)'==''">NotSet</CharacterSet>
+    <EmbedManifest>false</EmbedManifest>
+    <GenerateManifest>false</GenerateManifest>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(PlatformToolset)'=='v110' And '$(NativeToolchain)'=='true' And '$(Platform)'=='x64'">
+    <!-- Note: VS2012 doesn't ship an x64->x86 toolchain, but does have an x64->x64 toolchain -->
+    <!-- Handle some edge cases where VS2012 MSBuild props files don't work, specifically VS Express SKU and missing TC installation -->
+    <_CryNativeHelper_VCBase Condition="'$(_CryNativeHelper_VCBase)'==''">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\11.0\Setup\VC@ProductDir)</_CryNativeHelper_VCBase>
+    <_CryNativeHelper_VCBase Condition="'$(_CryNativeHelper_VCBase)'==''">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\11.0\Setup\VC@ProductDir)</_CryNativeHelper_VCBase>
+    <_CryNativeHelper_VCBase Condition="'$(_CryNativeHelper_VCBase)'==''">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Win8Express\11.0\Setup\VC@ProductDir)</_CryNativeHelper_VCBase>
+    <_CryNativeHelper_VCBase Condition="'$(_CryNativeHelper_VCBase)'==''">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Win8Express\11.0\Setup\VC@ProductDir)</_CryNativeHelper_VCBase>
+    <_CryNativeHelper_X64X64Bin Condition="'$(_CryNativeHelper_VCBase)'!=''">$(_CryNativeHelper_VCBase)bin\amd64\</_CryNativeHelper_X64X64Bin>
+    <_CryNativeHelper_TCExists Condition="'$(_CryNativeHelper_X64X64Bin)'!='' And Exists('$(_CryNativeHelper_X64X64Bin)cl.exe')">true</_CryNativeHelper_TCExists>
+    <_CryNativeHelper_IsHostX64 Condition="'$(PROCESSOR_ARCHITECTURE)'=='AMD64' Or '$(PROCESSOR_ARCHITEW6432)'=='AMD64'">true</_CryNativeHelper_IsHostX64>
+    <_IsNativeEnvironment Condition="'$(_CryNativeHelper_TCExists)'=='true' And '$(_CryNativeHelper_IsHostX64)'=='true'">true</_IsNativeEnvironment>
+    <_Error64bitToolsNotInstalled Condition="'$(VisualStudioVersion)'!='11.0' And '$(_IsNativeEnvironment)'=='true'">false</_Error64bitToolsNotInstalled> <!-- Downtarget VS2012 with VS201X, tested only with VS2013 -->
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(PlatformToolset)'=='v120' And '$(NativeToolchain)'=='true'">
+    <!-- Note: VS2013 ships both x64->x86 and x64->x64 toolchains -->
+    <UseNativeEnvironment>true</UseNativeEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(IsLauncher)'=='true'">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(IsLauncher)'!='true' And '$(StaticLink)'=='true'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(IsLauncher)'!='true' And '$(StaticLink)'!='true'">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+</Project>
