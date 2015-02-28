@@ -249,6 +249,7 @@ bool CWeapon::OnActionSprint(EntityId actorId, const ActionId& actionId, int act
 //Controller input (primary fire)
 bool CWeapon::OnActionAttackPrimary(EntityId actorId, const ActionId& actionId, int activationMode, float value)
 {
+//CodeChange
 	if(m_zm && m_zm->IsZoomed())
 	{
 		if (activationMode == eAAM_OnPress && (!gEnv->bMultiplayer || m_weaponNextShotTimer <= 0.f))
