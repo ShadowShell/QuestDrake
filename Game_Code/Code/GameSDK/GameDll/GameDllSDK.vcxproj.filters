@@ -1,0 +1,3864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Actor Files">
+      <UniqueIdentifier>{0b8466a4-63b7-4c7c-a9c5-796b8a200616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player">
+      <UniqueIdentifier>{b9ffbd69-0d15-40c5-9d7f-19e34428f864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\Camera">
+      <UniqueIdentifier>{f57bae9e-6489-4808-a450-cb161d412cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\ActionControllers">
+      <UniqueIdentifier>{ed91eb5f-c817-46d6-8354-60575e4edfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\ActionControllers\MountedGun">
+      <UniqueIdentifier>{355976a2-eee1-42b6-be2b-fb7ed4aa0436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\ActionControllers\StealthKill">
+      <UniqueIdentifier>{b373bbe8-95e8-44fa-baa1-a97ee09c56a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\ActionControllers\InteractiveAction">
+      <UniqueIdentifier>{35ea39ca-2e1e-4499-8a49-327ba55c4b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\ActionControllers\LargeObjectInteraction">
+      <UniqueIdentifier>{eccc17eb-1c7a-44f7-8a5f-101020efbb1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\ActionControllers\Slide">
+      <UniqueIdentifier>{2762c88a-9315-4cc8-9840-91f6025a899b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\AimAssistance">
+      <UniqueIdentifier>{9951c53d-af2e-445f-9ef6-65d5b84fa0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\HitDeathReactions">
+      <UniqueIdentifier>{30c335dd-f5b5-42f7-a34f-a956fe8d3b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\MovementTransitions">
+      <UniqueIdentifier>{c7d014a8-3c0a-48b1-b5ff-9a038b5924cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\PlayerStates">
+      <UniqueIdentifier>{75551b12-2c91-4d5c-a9fe-36cc66b1186c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Audio Files">
+      <UniqueIdentifier>{c3506013-1b59-4a22-bd5b-46461ccd0ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorGame Files">
+      <UniqueIdentifier>{2a9782ff-3965-4abb-b838-9b692fa356e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{079afe0d-2027-47f4-b98f-8b2230a00805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Environment">
+      <UniqueIdentifier>{56a8b8db-ebd7-468d-aa7d-64c3c5a3a551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Environment\Tornado">
+      <UniqueIdentifier>{a018401a-1d54-4e56-a067-617554521d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Environment\InteractiveObjects">
+      <UniqueIdentifier>{05531372-b2b9-4de2-ac0b-cd1fdcf03650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\ScreenFX">
+      <UniqueIdentifier>{416af85c-b252-4096-9cf8-1f6e16c1eaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObject Parameters">
+      <UniqueIdentifier>{df654f65-3c3c-43ad-93f7-9f9473040ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle Files">
+      <UniqueIdentifier>{5eac3240-426f-42c2-bcec-2127e849e960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle Files\Movement Files">
+      <UniqueIdentifier>{85729be2-63a0-420e-80cc-be7fe2d80e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle Files\Damage Files">
+      <UniqueIdentifier>{f1295df8-eeaf-4b2a-824d-a5ea804d45fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vehicle Files\Action Files">
+      <UniqueIdentifier>{2c3af0f2-742e-42c1-9abe-6656979d6f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{6a4b58f8-fe70-4e0c-9a32-f93d513b197c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nodes">
+      <UniqueIdentifier>{a6497ba7-81db-4fb4-8050-f102f66fd18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Realtime Remote Update System">
+      <UniqueIdentifier>{b6ee6f33-2049-4b06-8bae-a736c6ce6694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{1a201a95-7b8b-441b-a589-53dc7cd41dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Checkpoints">
+      <UniqueIdentifier>{bd3cbcc5-4282-4a4e-aaaf-2db97a5ab644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boids">
+      <UniqueIdentifier>{b2f5f493-d766-49d3-8d10-8f396d8105a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stereo3D">
+      <UniqueIdentifier>{9467ebef-d1f9-4f5b-aa05-64eef8fde62a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VTOLVehicleManager">
+      <UniqueIdentifier>{5f43f3e5-6596-4e4a-ac47-56304585d095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityUtility">
+      <UniqueIdentifier>{b9260cdb-6b8b-4bfb-8ae8-f0ef90745d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AntiCheat">
+      <UniqueIdentifier>{9f8d1cba-84b4-415c-afec-d5fdbd9d5fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\HazardModule">
+      <UniqueIdentifier>{3a03463b-c1e2-4601-a1e4-9f92ea550fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Localization">
+      <UniqueIdentifier>{efec9c26-8485-4293-baa3-bb165dfcff87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Animation">
+      <UniqueIdentifier>{958c60f8-e1de-4b85-9741-31fc32b910b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\ProceduralWeaponAnimation">
+      <UniqueIdentifier>{84406eb5-f5ca-4208-a583-ae84e6b39a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\PlayerStates\Util">
+      <UniqueIdentifier>{34cf9396-53a4-43b9-820d-bcd09483d11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Turret">
+      <UniqueIdentifier>{21cedbf8-1f56-4506-904d-1cf8b9f2adcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Turret\Turret">
+      <UniqueIdentifier>{f483c864-8a85-42ff-898d-9bf3d64e3448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\PlayerStates\Linked">
+      <UniqueIdentifier>{57fa6b56-6bdb-460b-bfc2-5b0f73e38d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Behavior Tree">
+      <UniqueIdentifier>{634a81b9-1763-4793-9590-79164de13efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MovingPlatforms">
+      <UniqueIdentifier>{17e2fe0f-7767-476d-84f4-c01e543f46de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Radio Chatter">
+      <UniqueIdentifier>{f5dd737f-d8c0-47be-ad60-376da4c661cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Modules">
+      <UniqueIdentifier>{5e72e4f1-ad0d-41b7-8ec2-7ce07af8f603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\RateOfDeath">
+      <UniqueIdentifier>{78e86cd4-5458-48b4-95e1-94d342842d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RecordingSystem">
+      <UniqueIdentifier>{8347ffb3-b158-45e6-ac6e-781505bfe043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RecordingSystem\ReplayObjects">
+      <UniqueIdentifier>{20f82559-3945-41de-a2ea-c821ac75f4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Corpses">
+      <UniqueIdentifier>{b5e370cb-1028-4726-8d51-13c756e1e622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer">
+      <UniqueIdentifier>{d1a07136-b17a-44d6-85ca-7509733aa4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Item Files">
+      <UniqueIdentifier>{9e3c4f66-5d24-4e33-ade7-f43d7794c510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Item Files\Weapon Files">
+      <UniqueIdentifier>{fc544317-89df-48f9-872c-664b55c1a284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Item Files\Weapon Files\Projectiles">
+      <UniqueIdentifier>{c5e1cba1-2ea4-441b-a339-69e6f1a94c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Actor Files">
+      <UniqueIdentifier>{bfe2dec2-b525-4c1f-acfd-79b69c42b122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Actor Files\player">
+      <UniqueIdentifier>{0a90ae60-a694-4373-942e-13a91203e4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Actor Files\player\animation">
+      <UniqueIdentifier>{f62ac2eb-fcdf-458d-bc64-7ec7522309e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\GameRules">
+      <UniqueIdentifier>{21466c6e-2ce5-4421-af12-e47515530337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\GameRules\Modules">
+      <UniqueIdentifier>{fe6ebf98-cc65-490f-8144-0ec0b7efcc2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\GameRules\Objectives">
+      <UniqueIdentifier>{bf213750-591a-4bf1-a116-b580b3954ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\GameRules\Events">
+      <UniqueIdentifier>{527379c4-762e-4d3c-b6b9-860e8ca20a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Testing">
+      <UniqueIdentifier>{1e4f31ec-9371-4f82-b924-d4d3c8b71afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Utility">
+      <UniqueIdentifier>{b8905d31-a3d4-4240-a9b2-d8027be0a556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Effects">
+      <UniqueIdentifier>{e5839728-7374-4f2a-bf81-720ff98e5427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Effects\RenderElements">
+      <UniqueIdentifier>{299e002b-9ed7-40af-b570-eba73a470fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Effects\RenderNodes">
+      <UniqueIdentifier>{0e500ef1-36f2-4e2f-91bd-9bf165051c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Effects\GameEffects">
+      <UniqueIdentifier>{9c5348bc-475c-42fe-9616-69451602d3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Effects\HUDEventListeners">
+      <UniqueIdentifier>{ef96bfd4-5c25-4ed3-9f48-8fb6d17a2fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Effects\Tools">
+      <UniqueIdentifier>{40bfcc89-02b4-4363-b594-45fd8d784983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\GameCodeCoverage">
+      <UniqueIdentifier>{138212aa-8ee0-432e-900f-25638cfa86a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Audio Files">
+      <UniqueIdentifier>{c7e78bf2-d9bc-4363-b2a2-b83ef72f5032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Graphics">
+      <UniqueIdentifier>{69cd7bd2-54b0-4639-b456-250b82e48503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Network">
+      <UniqueIdentifier>{a7317b7d-062e-411f-b933-f22b77e1cd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Network\Lobby">
+      <UniqueIdentifier>{69c2bc10-3cb4-4975-a769-c8f6750531c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Network\Squad">
+      <UniqueIdentifier>{8fbd7169-6766-42f2-a745-c3669a15abf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Network\DownloadMgr">
+      <UniqueIdentifier>{1bfcbfb6-d0b6-44f9-8320-9136d75fb6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Statistics">
+      <UniqueIdentifier>{f6a0118f-48e8-48c7-af99-63a616372dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Entities">
+      <UniqueIdentifier>{bd59f594-7807-46a5-a6b9-6874139b42a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{fbb6340e-6900-4c04-a22c-78164163d403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\EventSystems">
+      <UniqueIdentifier>{60ac192f-84c4-4c15-ae21-2c2a3c0a3596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\HUD">
+      <UniqueIdentifier>{2a8220d2-6e88-4921-891a-474df4a0cdd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Utils">
+      <UniqueIdentifier>{05175064-e4a9-4780-9d86-b76c06a9878b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Menu3dModels">
+      <UniqueIdentifier>{904bc35f-70b5-4059-ae22-7d8a62e9ea59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ProfileOptions">
+      <UniqueIdentifier>{eb8b34d1-101e-48af-91f2-3bb7e2c5fc7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Startup Files">
+      <UniqueIdentifier>{2eaa90fa-9454-462d-9c86-3fe3a68b9084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{19983216-09d6-4b4a-b5b6-3e9c1af5b259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item Files">
+      <UniqueIdentifier>{039e4337-4015-47f3-a96f-3017b01284ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item Files\Weapon Files">
+      <UniqueIdentifier>{d6a364f3-3508-4e5f-9a95-fa6e1b20a75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item Files\Weapon Files\Fire Modes">
+      <UniqueIdentifier>{3d2079e5-8e2a-456c-8be5-01c62ecbf3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item Files\Weapon Files\Projectiles">
+      <UniqueIdentifier>{d2e0599c-c464-46ee-9f6c-ef0d5ce2555a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item Files\Weapon Files\Zoom Modes">
+      <UniqueIdentifier>{f10a0eca-0516-4e3f-a30e-6d0c9e878f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item Files\Weapon Files\Weapons">
+      <UniqueIdentifier>{a4473d3b-5d3b-4bb3-a0eb-ebbd2e7076af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item Files\Weapon Files\Weapons\PickAndThrow">
+      <UniqueIdentifier>{e7915384-d4f8-4d3f-b0db-9d5985766acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item Files\Items">
+      <UniqueIdentifier>{4f1bb5e8-4e2d-4381-93ff-c07eb20d123e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameRules">
+      <UniqueIdentifier>{425838c1-8d56-44b0-82e3-6dd895815079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMechanismManager">
+      <UniqueIdentifier>{2a558731-6e14-4f7b-ac65-0bb80d4465bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor Files\Player\PlayerStates\Movement">
+      <UniqueIdentifier>{c5830aad-b935-47fb-8937-618ea5d4fae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\RuntimePrefabs">
+      <UniqueIdentifier>{eae4b220-d935-4b4d-8117-3786f83c98b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nodes\Durango">
+      <UniqueIdentifier>{ed025ea8-bfcc-4d3d-b7cd-d1308f549b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multiplayer\Network\Durango">
+      <UniqueIdentifier>{1aafb11f-bd59-4285-9e63-2c14951014ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicEventListener.cpp">
+      <Filter>Startup Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDll.cpp">
+      <Filter>Startup Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStartup.cpp">
+      <Filter>Startup Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Actor Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorDamageEffectController.cpp">
+      <Filter>Actor Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorImpulseHandler.cpp">
+      <Filter>Actor Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorLuaCache.cpp">
+      <Filter>Actor Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorManager.cpp">
+      <Filter>Actor Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorTelemetry.cpp">
+      <Filter>Actor Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIDemoInput.cpp">
+      <Filter>Actor Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_Actor.cpp">
+      <Filter>Actor Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyDamage.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyDestruction.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyManager.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyManagerCVars.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GodMode.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlayerInput.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInput.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMovementController.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMovementDebug.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRotation.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStumble.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerVisTable.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectacularKill.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraModes.cpp">
+      <Filter>Actor Files\Player\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>Actor Files\Player\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MountedGunController.cpp">
+      <Filter>Actor Files\Player\ActionControllers\MountedGun</Filter>
+    </ClCompile>
+    <ClCompile Include="StealthKill.cpp">
+      <Filter>Actor Files\Player\ActionControllers\StealthKill</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractiveActionController.cpp">
+      <Filter>Actor Files\Player\ActionControllers\InteractiveAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeObjectInteraction.cpp">
+      <Filter>Actor Files\Player\ActionControllers\LargeObjectInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideController.cpp">
+      <Filter>Actor Files\Player\ActionControllers\Slide</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoAimManager.cpp">
+      <Filter>Actor Files\Player\AimAssistance</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomReactionFunctions.cpp">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClCompile>
+    <ClCompile Include="HitDeathReactions.cpp">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClCompile>
+    <ClCompile Include="HitDeathReactionsSystem.cpp">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_HitDeathReactions.cpp">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementTransitions.cpp">
+      <Filter>Actor Files\Player\MovementTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementTransitionsController.cpp">
+      <Filter>Actor Files\Player\MovementTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementTransitionsSystem.cpp">
+      <Filter>Actor Files\Player\MovementTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponBumpOffset.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponLookOffset.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponOffsetInput.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponRecoilOffset.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponStrafeOffset.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponZoomOffset.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioSignalPlayer.cpp">
+      <Filter>Actor Files\Audio Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\GameAudio.cpp">
+      <Filter>Actor Files\Audio Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Scriptbind_GameAudio.cpp">
+      <Filter>Actor Files\Audio Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGame.cpp">
+      <Filter>EditorGame Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentSystemInterface.cpp">
+      <Filter>EditorGame Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CinematicInput.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLCManager.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameActions.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCache.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCVars.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFactory.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaylistManager.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Radio.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptControlledPhysics.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticalManager.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\LedgeManager.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\Rain.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\Shake.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\FlowTornado.cpp">
+      <Filter>Game Files\Environment\Tornado</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\Tornado.cpp">
+      <Filter>Game Files\Environment\Tornado</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\InteractiveObject.cpp">
+      <Filter>Game Files\Environment\InteractiveObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\InteractiveObjectRegistry.cpp">
+      <Filter>Game Files\Environment\InteractiveObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\ScriptBind_InteractiveObject.cpp">
+      <Filter>Game Files\Environment\InteractiveObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendedEffect.cpp">
+      <Filter>Game Files\ScreenFX</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendNode.cpp">
+      <Filter>Game Files\ScreenFX</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenEffects.cpp">
+      <Filter>Game Files\ScreenFX</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenEffects_Game.cpp">
+      <Filter>Game Files\ScreenFX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameParameters.cpp">
+      <Filter>Game Files\GameObject Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSharedParams.cpp">
+      <Filter>Game Files\GameObject Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponSharedParams.cpp">
+      <Filter>Game Files\GameObject Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingPlatforms\MovingPlatformMgr.cpp">
+      <Filter>MovingPlatforms</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleClient.cpp">
+      <Filter>Vehicle Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\VehicleViewGameBase.cpp">
+      <Filter>Vehicle Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\VehicleViewSteer.cpp">
+      <Filter>Vehicle Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMovementArcadeWheeled.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMovementHelicopterArcade.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\VehiclePhysicsHelicopter.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMovementBase.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle\VehicleMovementDummy.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMovementStdBoat.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMovementTank.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleDamageBehaviorBurn.cpp">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleDamageBehaviorCameraShake.cpp">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleDamageBehaviorExplosion.cpp">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleDamageBehaviorTire.cpp">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleActionAutomaticDoor.cpp">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleActionAutoTarget.cpp">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleActionDeployRope.cpp">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleActionEntityAttachment.cpp">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleActionLandingGears.cpp">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AmmoParams.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MuzzleEffect.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_Weapon.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TracerManager.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponAlias.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponClientServer.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponEvent.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponInput.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponSystem.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Automatic.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="AutomaticShotgun.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Burst.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Charge.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Detonate.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="FireMode.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="FireModePlugin.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="LTagSingle.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Melee.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeCollisionHelper.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="MikeBullet.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rapid.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shotgun.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Single.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Spammer.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Throw.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="C4Projectile.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Grenade.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingMissile.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="HommingSwarmProjectile.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningBolt.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="LTAGGrenade.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="IronSight.cpp">
+      <Filter>Item Files\Weapon Files\Zoom Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scope.cpp">
+      <Filter>Item Files\Weapon Files\Zoom Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="AIGrenade.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Binocular.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="C4.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugGun.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="GunTurret.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="HandGrenades.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavyWeapon.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="JAW.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="LTAG.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="NoWeapon.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleWeapon.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleWeaponControlled.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleWeaponGuided.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Accessory.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="LaptopUtil.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInputChainDebug.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsAgent.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Wiggle.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRules.cpp">
+      <Filter>GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesClientServer.cpp">
+      <Filter>GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesObjective_PowerStruggle.cpp">
+      <Filter>GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_GameRules.cpp">
+      <Filter>GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\AchievementNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\AINodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\ColorGradientNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FeatureTestNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowActorNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowActorSensor.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowCheckAreaNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowConvoyNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowHitInfoNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowNodesInput.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowPlayerStagingNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowPlayerStumble.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowPostFXNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowVehicleNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\G2FlowEntityElectricConnector.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\G2FlowEntityVelocity.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\G2FlowYesNoGestureNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\GameNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\MPNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\PressureWaveNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\SimulatePlayerInputNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\TacticalScanNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\WeaponNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\GameRealtimeRemoteUpdate.cpp">
+      <Filter>Realtime Remote Update System</Filter>
+    </ClCompile>
+    <ClCompile Include="Chaff.cpp">
+      <Filter>Multiplayer\Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="KVoltBullet.cpp">
+      <Filter>Multiplayer\Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="AfterMatchAwards.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientHitEffectsMP.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="CorpseManager.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="DummyPlayer.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="PersistantStats.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerModifiableValues.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPlugin.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPlugin_CurrentlyTargetting.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPlugin_Interaction.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProgression.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressionUnlocks.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillKill.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillRanking.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="DualCharacterProxy.cpp">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="IKTorsoAim_Helper.cpp">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="LookAim_Helper.cpp">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformationPinning.cpp">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponFPAiming.cpp">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Battlechatter.cpp">
+      <Filter>Multiplayer\GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentLoadout.cpp">
+      <Filter>Multiplayer\GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesAssistScoring.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesCommonDamageHandling.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesExtractionVictoryConditions.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesModulesManager.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesMPActorAction.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesMPDamageHandling.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesMPSimpleSpawning.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesMPSpawning.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesMPSpawningWithLives.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesMPSpectator.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesObjectiveVictoryConditionsTeam.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesSpawningBase.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesStandardPlayerStats.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesStandardRounds.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesStandardScoring.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesStandardSetup.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesStandardState.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesStandardTwoTeams.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesStandardVictoryConditionsPlayer.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesStandardVictoryConditionsTeam.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesStatsRecording.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesSurvivorOneVictoryConditions.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesCombiCaptureObjective.cpp">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesHoldObjectiveBase.cpp">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesKingOfTheHillObjective.cpp">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesObjective_CTF.cpp">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesObjective_Extraction.cpp">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesSimpleEntityBasedObjective.cpp">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="Testing\AutoTester.cpp">
+      <Filter>Multiplayer\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeCheckpointDebugMgr.cpp">
+      <Filter>Multiplayer\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Testing\FeatureTester.cpp">
+      <Filter>Multiplayer\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Testing\FeatureTestMgr.cpp">
+      <Filter>Multiplayer\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoEnum.cpp">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\CryHash.cpp">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\CryWatch.cpp">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\DesignerWarning.cpp">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\SingleAllocTextBlock.cpp">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="SShootHelper.cpp">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\StringUtils.cpp">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffectsSystem.cpp">
+      <Filter>Multiplayer\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\ExplosionGameEffect.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\GameEffect.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\HitRecoilGameEffect.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\HudInterferenceGameEffect.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\KillCamGameEffect.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\PlayerHealthEffect.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\HUDEventListeners\LetterBoxHudEventListener.cpp">
+      <Filter>Multiplayer\Effects\HUDEventListeners</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Tools\CVarActivationSystem.cpp">
+      <Filter>Multiplayer\Effects\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Tools\PostEffectActivationSystem.cpp">
+      <Filter>Multiplayer\Effects\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCodeCoverage\GameCodeCoverageGUI.cpp">
+      <Filter>Multiplayer\GameCodeCoverage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCodeCoverage\GameCodeCoverageManager.cpp">
+      <Filter>Multiplayer\GameCodeCoverage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCodeCoverage\GameCodeCoverageTracker.cpp">
+      <Filter>Multiplayer\GameCodeCoverage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCodeCoverage\IGameCodeCoverageListener.cpp">
+      <Filter>Multiplayer\GameCodeCoverage</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Announcer.cpp">
+      <Filter>Multiplayer\Audio Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AreaAnnouncer.cpp">
+      <Filter>Multiplayer\Audio Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\MiscAnnouncer.cpp">
+      <Filter>Multiplayer\Audio Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\2DRenderUtils.cpp">
+      <Filter>Multiplayer\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\GameNetworkUtils.cpp">
+      <Filter>Multiplayer\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\GameAchievements.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\GameBrowser.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\GameLobby.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\GameLobbyData.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\GameServerLists.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\SessionNames.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\SessionSearchSimulator.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Squad\SquadManager.cpp">
+      <Filter>Multiplayer\Network\Squad</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadMgr.cpp">
+      <Filter>Multiplayer\Network\DownloadMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularStatsStorage.cpp">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="StatHelpers.cpp">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsRecordingMgr.cpp">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="TelemetryCollector.cpp">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLStatsSerializer.cpp">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerEntities\CarryEntity.cpp">
+      <Filter>Multiplayer\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerEntities\NetworkedPhysicsEntity.cpp">
+      <Filter>Multiplayer\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ColorGradientManager.cpp">
+      <Filter>Multiplayer\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AdvantagePointOccupancyControl.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIBattleFront.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\DeathManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\GameAIEnv.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\GameAIHelpers.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\GameAIRecorder.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\GameAISystem.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\ScriptBind_GameAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\TacticalPointLanguageExtender.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\TargetTrackThreatModifier.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\VisibleObjectsHelper.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckpointGame.cpp">
+      <Filter>Checkpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\BirdsFlock.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\BoidBird.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\BoidCollision.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\BoidFish.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\BoidObject.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\BoidsProxy.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\BugsFlock.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\ChickenBoids.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\FishFlock.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\Flock.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\FrogBoids.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="Boids\ScriptBind_Boids.cpp">
+      <Filter>Boids</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMechanismManager\GameMechanismBase.cpp">
+      <Filter>GameMechanismManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMechanismManager\GameMechanismManager.cpp">
+      <Filter>GameMechanismManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Stereo3D\StereoFramework.cpp">
+      <Filter>Stereo3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Stereo3D\StereoZoom.cpp">
+      <Filter>Stereo3D</Filter>
+    </ClCompile>
+    <ClCompile Include="VTOLVehicleManager\VTOLVehicleManager.cpp">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityUtility\EntityEffects.cpp">
+      <Filter>EntityUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityUtility\EntityEffectsCloak.cpp">
+      <Filter>EntityUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityUtility\EntityEffectsHeat.cpp">
+      <Filter>EntityUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityUtility\EntityScriptCalls.cpp">
+      <Filter>EntityUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="WeaponMelee.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEntityInteraction.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesObjective_Predator.cpp">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavyMountedWeapon.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMountedWeapon.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCheat\ShotCounter.cpp">
+      <Filter>AntiCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsAgentPipe.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\GameEffectSoftCodeLibrary.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\RenderElements\GameRenderElement.cpp">
+      <Filter>Multiplayer\Effects\RenderElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\RenderElements\GameRenderElementSoftCodeLibrary.cpp">
+      <Filter>Multiplayer\Effects\RenderElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\RenderNodes\GameRenderNodeSoftCodeLibrary.cpp">
+      <Filter>Multiplayer\Effects\RenderNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\HazardModule\HazardSphere.cpp">
+      <Filter>AI\HazardModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\HazardModule\Hazard.cpp">
+      <Filter>AI\HazardModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\HazardModule\HazardProjectile.cpp">
+      <Filter>AI\HazardModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\HazardModule\HazardShared.cpp">
+      <Filter>AI\HazardModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\HazardModule\HazardRayCast.cpp">
+      <Filter>AI\HazardModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\HazardModule\HazardModule.cpp">
+      <Filter>AI\HazardModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIAwarenessToPlayerHelper.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\DeflectorShield.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AICounters.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLocalizationManager.cpp">
+      <Filter>Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementAction.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnimation.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipRagdoll.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralWeaponClip.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret\Turret\Turret.cpp">
+      <Filter>Turret\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret\Turret\ProceduralClipTurretAimPose.cpp">
+      <Filter>Turret\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret\Turret\ScriptBind_Turret.cpp">
+      <Filter>Turret\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret\Turret\TurretBehavior.cpp">
+      <Filter>Turret\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret\Turret\ProceduralContextTurretAimPose.cpp">
+      <Filter>Turret\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\AIAssignmentNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret\Turret\TurretBehaviorParams.cpp">
+      <Filter>Turret\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\GameAudioUtils.cpp">
+      <Filter>Actor Files\Audio Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleDamageBehaviorAudioFeedback.cpp">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionCoopAnim.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCheat\ClientCheatMonitor.cpp">
+      <Filter>AntiCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCheat\ServerCheatMonitor.cpp">
+      <Filter>AntiCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateLinked.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Linked</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\DangerousRigidBody.cpp">
+      <Filter>Game Files\Environment\InteractiveObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralWeaponContext.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponOffset.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAIMovement.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAIAimPose.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateUtil.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\PlaylistActivityTracker.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="LagOMeter.cpp">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralWeaponAnimation.cpp">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAI.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCheat\ServerPlayerTracker.cpp">
+      <Filter>AntiCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\ParameterGameEffect.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPlugin_InteractiveEntityMonitor.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\Ledge.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAIStance.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\BehaviorTree\BehaviorTreeNodes_Game.cpp">
+      <Filter>AI\Behavior Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AISquadManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesMPWaveSpawning.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileAutoAimHelper.cpp">
+      <Filter>Actor Files\Player\AimAssistance</Filter>
+    </ClCompile>
+    <ClCompile Include="FragmentVariationHelper.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAICoverAction.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsEntityIdRegistry.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\SmartMine.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\SmartMineBehavior.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\RadioChatter\RadioChatterModule.cpp">
+      <Filter>AI\Radio Chatter</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret\Turret\FlowNodesTurret.cpp">
+      <Filter>Turret\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\RadioChatter\RadioChatterFlowNode.cpp">
+      <Filter>AI\Radio Chatter</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AloneDetectorModule.cpp">
+      <Filter>AI\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\SearchModule.cpp">
+      <Filter>AI\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\RangeModule.cpp">
+      <Filter>AI\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\DoorPanel.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\DoorPanelBehavior.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\RateOfDeath\RateOfDeathHelper.cpp">
+      <Filter>AI\RateOfDeath</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\RateOfDeath\RateOfDeathSimple.cpp">
+      <Filter>AI\RateOfDeath</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsStructures.cpp">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClCompile>
+    <ClCompile Include="PickAndThrowWeapon.cpp">
+      <Filter>Item Files\Weapon Files\Weapons\PickAndThrow</Filter>
+    </ClCompile>
+    <ClCompile Include="PickAndThrowUtilities.cpp">
+      <Filter>Item Files\Weapon Files\Weapons\PickAndThrow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTypeInfo.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowIndicator.cpp">
+      <Filter>Item Files\Weapon Files\Zoom Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\WaterEffects.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\WaterRipplesGenerator.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionMultiCoopAnim.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesObjectiveVictoryConditionsIndividualScore.cpp">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipAiming.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipAiming.cpp" />
+    <ClCompile Include="flashlight.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralContextAim.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAIAiming.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipCompromiseCover.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleMagazine.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CinematicWeapon.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\LightningGameEffect.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\RenderNodes\LightningNode.cpp">
+      <Filter>Multiplayer\Effects\RenderNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\LightningArc.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\ScriptBind_LightningArc.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionBlendFromRagdoll.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SprintStamina.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConstantCVars.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyDefinitions.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotDebug.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="AdaptiveCompressor.cpp">
+      <Filter>RecordingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordingBuffer.cpp">
+      <Filter>RecordingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordingSystemClientSender.cpp">
+      <Filter>RecordingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordingSystemCompressor.cpp">
+      <Filter>RecordingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordingSystemPackets.cpp">
+      <Filter>RecordingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordingSystemServerForwarder.cpp">
+      <Filter>RecordingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordingSystemStreamer.cpp">
+      <Filter>RecordingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplayActor.cpp">
+      <Filter>RecordingSystem\ReplayObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplayObject.cpp">
+      <Filter>RecordingSystem\ReplayObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordingSystemDebug.cpp">
+      <Filter>RecordingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\TeamBalancing.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\EnvironmentDisturbanceManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\WaterPuddle.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralContextRagdoll.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAIDetail.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAIAiming.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAILookPose.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAILooking.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralContextAim.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipAiming.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipLooking.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralContextLook.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\VicinityDependentObjectMover.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AICorpse.cpp">
+      <Filter>AI\Corpses</Filter>
+    </ClCompile>
+    <ClCompile Include="ICameraMode.cpp">
+      <Filter>Actor Files\Player\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CornerSmoother.cpp">
+      <Filter>Actor Files\Player\MovementTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\AttachmentUtils.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\HUDControllerInputIcons.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\HUDEventDispatcher.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\HUDEventTranslator.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\HUDEventWrapper.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\HUDMissionObjectiveSystem.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\HUDOnScreenMessageDef.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\HUDSilhouettes.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\HUDUtils.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\ScriptBind_HUD.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\TacticalOverrideEntity.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Utils\ILoadingMessageProvider.cpp">
+      <Filter>UI\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Utils\LocalizedStringManager.cpp">
+      <Filter>UI\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Utils\ScreenLayoutManager.cpp">
+      <Filter>UI\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Utils\ScreenLayoutUtils.cpp">
+      <Filter>UI\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Menu3dModels\FrontEndModelCache.cpp">
+      <Filter>UI\Menu3dModels</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Menu3dModels\MenuRender3DModelMgr.cpp">
+      <Filter>UI\Menu3dModels</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIDialogs.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIEntityDynTexTag.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIEntityTag.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIGameEvents.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIHUD3D.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIInput.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UILobbyMP.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIMenuEvents.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIMultiPlayer.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UISettings.cpp">
+      <Filter>UI\EventSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UICVars.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\WarningsManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Option.cpp">
+      <Filter>UI\ProfileOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ProfileOptions.cpp">
+      <Filter>UI\ProfileOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowMinimapNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowVideoPlayerNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowFadeNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HUD\ErrorHandling.cpp">
+      <Filter>UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowWeaponCustomizationNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\ModelToHudFlowNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="HitDeathReactionsDefs.cpp">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExactPositioning.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ExactPositioningTrigger.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordingSystem.cpp">
+      <Filter>RecordingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UseableTurret.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMovementHelicopter.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\MatchmakingTelemetry.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\MatchmakingHandler.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\GameLobbyCVars.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\MatchmakingEvents.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\ScriptBind_MatchMaking.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\GameLobbyManager.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Lobby\CryLobbySessionHandler.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\StalkerModule.cpp">
+      <Filter>AI\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowHudEventsNodes.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="WaypointPath.cpp">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MPPathFollowingManager.cpp">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MPPath.cpp">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MPTrackViewManager.cpp">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMovementMPVTOL.cpp">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="QuatTBlender.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipAimSmoothing.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipColliderMode.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipCopyNormalizedTime.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipFacialSequence.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipMovementControlMethod.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralClipSetStance.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralContextAim.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralContextColliderMode.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralContextMovementControlMethod.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimActionAIAiming.cpp">
+      <Filter>Actor Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\PlayerMindGameBeamEffect.cpp">
+      <Filter>GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\GameRulesSPDamageHandling.cpp">
+      <Filter>GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="EMPGrenade.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCheatManager.cpp">
+      <Filter>AntiCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPositionChecker.cpp">
+      <Filter>Multiplayer\GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemAccessory.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemAnimation.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemClientServer.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemEffect.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemEvents.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPackages.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemParams.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemResource.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemResourceCache.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemScheduler.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemView.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowItemAnimation.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeReticule.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_Item.cpp">
+      <Filter>Item Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PickAndThrowProxy.cpp">
+      <Filter>Item Files\Weapon Files\Weapons\PickAndThrow</Filter>
+    </ClCompile>
+    <ClCompile Include="FireModeParams.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="FireModePluginParams.cpp">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Recoil.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StickyProjectile.cpp">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameJobSystem.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePhysicsSettings.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateRecorder.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponStats.cpp">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomDeck.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar3D.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPatchDownloader.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModInfoManager.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchPakManager.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeManager.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRulesModules\SpawningVisTable.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\GameEffects\SceneBlurGameEffect.cpp">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamVisualizationManager.cpp">
+      <Filter>GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="RevertibleConfigLoader.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerControl\PlayerEnslavement.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Voting.cpp">
+      <Filter>GameRules</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayerComponent.cpp">
+      <Filter>Actor Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentalWeapon.cpp">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateDead.cpp">
+      <Filter>Actor Files\Player\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateEvents.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateEntry.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateFly.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateGround.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateJump.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateLadder.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateLedge.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateMovement.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateSwim.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateSwim_WaterTestProxy.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateAIMovement.cpp">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionAssistanceUnit.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenResolution.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RichPresence.cpp">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBind_ProtectedBinds.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\MineField.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateAnimationControlled.cpp">
+      <Filter>Actor Files\Player\PlayerStates</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.h" />
+    <ClCompile Include="PrefabManager.cpp">
+      <Filter>Game Files\RuntimePrefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="RuntimePrefab.cpp">
+      <Filter>Game Files\RuntimePrefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldBuilder.cpp">
+      <Filter>Game Files\RuntimePrefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ManualFrameStep.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\Snow.cpp">
+      <Filter>Game Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\FlowNodesAIActionSequence.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMovementStdTank.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleMovementStdWheeled.cpp">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicEventListener.h">
+      <Filter>Startup Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStartup.h">
+      <Filter>Startup Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IBasicEventListener.h">
+      <Filter>Startup Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorDamageEffectController.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorDefinitions.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorImpulseHandler.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorLuaCache.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorManager.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorTelemetry.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIDemoInput.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_Actor.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyDamage.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyDefinitions.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyDestruction.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyManager.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyManagerCVars.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GodMode.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerEventListener.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerInput.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerUpdateListener.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlayerInput.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInput.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovementController.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovementDebug.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRotation.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStumble.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerVisTable.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectacularKill.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraModes.h">
+      <Filter>Actor Files\Player\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ICameraMode.h">
+      <Filter>Actor Files\Player\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>Actor Files\Player\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MountedGunController.h">
+      <Filter>Actor Files\Player\ActionControllers\MountedGun</Filter>
+    </ClInclude>
+    <ClInclude Include="StealthKill.h">
+      <Filter>Actor Files\Player\ActionControllers\StealthKill</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractiveActionController.h">
+      <Filter>Actor Files\Player\ActionControllers\InteractiveAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeObjectInteraction.h">
+      <Filter>Actor Files\Player\ActionControllers\LargeObjectInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideController.h">
+      <Filter>Actor Files\Player\ActionControllers\Slide</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoAimManager.h">
+      <Filter>Actor Files\Player\AimAssistance</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomReactionFunctions.h">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClInclude>
+    <ClInclude Include="HitDeathReactions.h">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClInclude>
+    <ClInclude Include="HitDeathReactionsDefs.h">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClInclude>
+    <ClInclude Include="HitDeathReactionsSystem.h">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_HitDeathReactions.h">
+      <Filter>Actor Files\Player\HitDeathReactions</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementTransitions.h">
+      <Filter>Actor Files\Player\MovementTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementTransitionsController.h">
+      <Filter>Actor Files\Player\MovementTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementTransitionsSystem.h">
+      <Filter>Actor Files\Player\MovementTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementTransitionsUtil.h">
+      <Filter>Actor Files\Player\MovementTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponBumpOffset.h">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponLookOffset.h">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponOffsetInput.h">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponRecoilOffset.h">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponStrafeOffset.h">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponZoomOffset.h">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioSignalPlayer.h">
+      <Filter>Actor Files\Audio Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioTypes.h">
+      <Filter>Actor Files\Audio Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\GameAudio.h">
+      <Filter>Actor Files\Audio Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Scriptbind_GameAudio.h">
+      <Filter>Actor Files\Audio Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGame.h">
+      <Filter>EditorGame Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentSystemInterface.h">
+      <Filter>EditorGame Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CinematicInput.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLCManager.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActions.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCache.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCVars.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFactory.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInputActionHandlers.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaylistManager.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Radio.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptControlledPhysics.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticalManager.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\LedgeManager.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\Rain.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\Shake.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\FlowTornado.h">
+      <Filter>Game Files\Environment\Tornado</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\Tornado.h">
+      <Filter>Game Files\Environment\Tornado</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\InteractiveObject.h">
+      <Filter>Game Files\Environment\InteractiveObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\InteractiveObjectRegistry.h">
+      <Filter>Game Files\Environment\InteractiveObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\ScriptBind_InteractiveObject.h">
+      <Filter>Game Files\Environment\InteractiveObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendedEffect.h">
+      <Filter>Game Files\ScreenFX</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendNode.h">
+      <Filter>Game Files\ScreenFX</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendTypes.h">
+      <Filter>Game Files\ScreenFX</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenEffects.h">
+      <Filter>Game Files\ScreenFX</Filter>
+    </ClInclude>
+    <ClInclude Include="GameParameters.h">
+      <Filter>Game Files\GameObject Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSharedParams.h">
+      <Filter>Game Files\GameObject Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSharedParams.h">
+      <Filter>Game Files\GameObject Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\VehicleUtils.h">
+      <Filter>Vehicle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingPlatforms\MovingPlatformMgr.h">
+      <Filter>MovingPlatforms</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleClient.h">
+      <Filter>Vehicle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\VehicleViewGameBase.h">
+      <Filter>Vehicle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\VehicleViewSteer.h">
+      <Filter>Vehicle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMovementArcadeWheeled.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMovementHelicopterArcade.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\VehiclePhysicsHelicopter.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMovementBase.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle\VehicleMovementDummy.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMovementStdBoat.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMovementTank.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleDamageBehaviorBurn.h">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleDamageBehaviorCameraShake.h">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleDamageBehaviorExplosion.h">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleDamageBehaviorTire.h">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleActionAutomaticDoor.h">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleActionAutoTarget.h">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleActionDeployRope.h">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleActionEntityAttachment.h">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleActionLandingGears.h">
+      <Filter>Vehicle Files\Action Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AmmoParams.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MuzzleEffect.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_Weapon.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TracerManager.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponAlias.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSystem.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Automatic.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="AutomaticShotgun.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Burst.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Charge.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Detonate.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="FireMode.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="FireModePlugin.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="LTagSingle.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Melee.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeCollisionHelper.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="MikeBullet.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapid.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shotgun.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Single.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spammer.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Throw.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="C4Projectile.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HandGrenades.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingMissile.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HommingSwarmProjectile.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningBolt.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="LTAGGrenade.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="IronSight.h">
+      <Filter>Item Files\Weapon Files\Zoom Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scope.h">
+      <Filter>Item Files\Weapon Files\Zoom Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="AIGrenade.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Binocular.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="C4.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugGun.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="GunTurret.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavyWeapon.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="JAW.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="LTAG.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="NoWeapon.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleWeapon.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleWeaponControlled.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleWeaponGuided.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Accessory.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CryMacros.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Hermite.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="LaptopUtil.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInputChainDebug.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsAgent.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Wiggle.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRules.h">
+      <Filter>GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesObjective_PowerStruggle.h">
+      <Filter>GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_GameRules.h">
+      <Filter>GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\AINodes.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\ColorGradientNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\FeatureTestNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\FlowConvoyNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\G2FlowBaseNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\SimulatePlayerInputNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\GameRealtimeRemoteUpdate.h">
+      <Filter>Realtime Remote Update System</Filter>
+    </ClInclude>
+    <ClInclude Include="Chaff.h">
+      <Filter>Multiplayer\Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="KVoltBullet.h">
+      <Filter>Multiplayer\Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="AfterMatchAwards.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientHitEffectsMP.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="CorpseManager.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyPlayer.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="PersistantStats.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerModifiableValues.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPlugin.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPlugin_CurrentlyTargetting.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPlugin_Interaction.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProgression.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressionUnlocks.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillKill.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillRanking.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="DualCharacterProxy.h">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="IKTorsoAim_Helper.h">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ITransformationPinning.h">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="LookAim_Helper.h">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformationPinning.h">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponFPAiming.h">
+      <Filter>Multiplayer\Actor Files\player\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Battlechatter.h">
+      <Filter>Multiplayer\GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentLoadout.h">
+      <Filter>Multiplayer\GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesTypes.h">
+      <Filter>Multiplayer\GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesAssistScoring.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesCommonDamageHandling.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesExtractionVictoryConditions.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesGladiatorTeams.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesModulesManager.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesModulesRegistration.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesMPActorAction.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesMPDamageHandling.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesMPSimpleSpawning.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesMPSpawning.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesMPSpawningWithLives.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesMPSpectator.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesObjectiveVictoryConditionsTeam.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesSpawningBase.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesStandardPlayerStats.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesStandardRounds.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesStandardScoring.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesStandardSetup.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesStandardState.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesStandardTwoTeams.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesStandardVictoryConditionsPlayer.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesStandardVictoryConditionsTeam.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesStatsRecording.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesSurvivorOneVictoryConditions.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesActorActionModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesAssistScoringModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesDamageHandlingModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesModuleRMIListener.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesModulesManager.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesObjectivesModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesPlayerSetupModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesPlayerStatsModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesRoundsModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesScoringModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesSpawningModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesSpectatorModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesStateModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesTeamsModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesVictoryConditionsModule.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesCombiCaptureObjective.h">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesHoldObjectiveBase.h">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesKingOfTheHillObjective.h">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesObjective_CTF.h">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesObjective_Extraction.h">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesSimpleEntityBasedObjective.h">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesEntityObjective.h">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesObjective.h">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesActorActionListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesClientConnectionListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesClientScoreListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesKillListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesPickupListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesPlayerStatsListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesRevivedListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesRoundsListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesSurvivorCountListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesTeamChangedListener.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Testing\AutoTester.h">
+      <Filter>Multiplayer\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeCheckpointDebugMgr.h">
+      <Filter>Multiplayer\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Testing\FeatureTester.h">
+      <Filter>Multiplayer\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Testing\FeatureTestMgr.h">
+      <Filter>Multiplayer\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoEnum.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\BufferUtil.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CryDebugLog.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CryHash.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CryWatch.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\DesignerWarning.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\DoubleLinkedList.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\MaskedVar.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\SingleAllocTextBlock.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SShootHelper.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\StringUtils.h">
+      <Filter>Multiplayer\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffectsSystem.h">
+      <Filter>Multiplayer\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\ExplosionGameEffect.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\GameEffect.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\HitRecoilGameEffect.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\HudInterferenceGameEffect.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\KillCamGameEffect.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\PlayerHealthEffect.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\HUDEventListeners\LetterBoxHudEventListener.h">
+      <Filter>Multiplayer\Effects\HUDEventListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Tools\CVarActivationSystem.h">
+      <Filter>Multiplayer\Effects\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Tools\LerpParam.h">
+      <Filter>Multiplayer\Effects\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Tools\PostEffectActivationSystem.h">
+      <Filter>Multiplayer\Effects\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCodeCoverage\GameCodeCoverageEnabled.h">
+      <Filter>Multiplayer\GameCodeCoverage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCodeCoverage\GameCodeCoverageGUI.h">
+      <Filter>Multiplayer\GameCodeCoverage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCodeCoverage\GameCodeCoverageManager.h">
+      <Filter>Multiplayer\GameCodeCoverage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCodeCoverage\GameCodeCoverageTracker.h">
+      <Filter>Multiplayer\GameCodeCoverage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCodeCoverage\IGameCodeCoverageListener.h">
+      <Filter>Multiplayer\GameCodeCoverage</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Announcer.h">
+      <Filter>Multiplayer\Audio Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AreaAnnouncer.h">
+      <Filter>Multiplayer\Audio Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\MiscAnnouncer.h">
+      <Filter>Multiplayer\Audio Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\2DRenderUtils.h">
+      <Filter>Multiplayer\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameNetworkDefines.h">
+      <Filter>Multiplayer\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\GameNetworkUtils.h">
+      <Filter>Multiplayer\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\LobbyTaskQueue.h">
+      <Filter>Multiplayer\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\AutoLockData.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\GameAchievements.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\GameBrowser.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\GameLobby.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\GameLobbyData.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\IGameLobbyEventListener.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\GameServerLists.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\GameUserPackets.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\SessionNames.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\SessionSearchSimulator.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Squad\SquadManager.h">
+      <Filter>Multiplayer\Network\Squad</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadMgr.h">
+      <Filter>Multiplayer\Network\DownloadMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularStatsStorage.h">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="ITelemetryCollector.h">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="StatHelpers.h">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsRecordingMgr.h">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="TelemetryCollector.h">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLStatsSerializer.h">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerEntities\CarryEntity.h">
+      <Filter>Multiplayer\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerEntities\NetworkedPhysicsEntity.h">
+      <Filter>Multiplayer\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ColorGradientManager.h">
+      <Filter>Multiplayer\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AdvantagePointOccupancyControl.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Agent.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIBattleFront.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\DeathManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\GameAIEnv.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\GameAIHelpers.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\GameAIRecorder.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\GameAISystem.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\ScriptBind_GameAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\TacticalPointLanguageExtender.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\TargetTrackThreatModifier.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\VisibleObjectsHelper.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckpointGame.h">
+      <Filter>Checkpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\BirdEnum.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\BirdsFlock.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\BoidBird.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\BoidCollision.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\BoidFish.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\BoidObject.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\BoidsProxy.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\BugsFlock.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\ChickenBoids.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\FishFlock.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\Flock.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\FrogBoids.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="Boids\ScriptBind_Boids.h">
+      <Filter>Boids</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMechanismManager\GameMechanismBase.h">
+      <Filter>GameMechanismManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMechanismManager\GameMechanismEvents.h">
+      <Filter>GameMechanismManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMechanismManager\GameMechanismManager.h">
+      <Filter>GameMechanismManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Stereo3D\StereoFramework.h">
+      <Filter>Stereo3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Stereo3D\StereoZoom.h">
+      <Filter>Stereo3D</Filter>
+    </ClInclude>
+    <ClInclude Include="VTOLVehicleManager\VTOLVehicleManager.h">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityUtility\EntityEffects.h">
+      <Filter>EntityUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityUtility\EntityEffectsCloak.h">
+      <Filter>EntityUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityUtility\EntityEffectsHeat.h">
+      <Filter>EntityUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityUtility\EntityScriptCalls.h">
+      <Filter>EntityUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponMelee.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEntityInteraction.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesObjective_Predator.h">
+      <Filter>Multiplayer\GameRules\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavyMountedWeapon.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMountedWeapon.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheat\ShotCounter.h">
+      <Filter>AntiCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheat\ServerPlayerTracker.h">
+      <Filter>AntiCheat</Filter>
+    </ClInclude>
+    <ClCompile Include="Voting.cpp" />
+    <ClInclude Include="StatsAgentPipe.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\HazardModule\HazardSphere.h">
+      <Filter>AI\HazardModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\HazardModule\Hazard.h">
+      <Filter>AI\HazardModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\HazardModule\HazardProjectile.h">
+      <Filter>AI\HazardModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\HazardModule\HazardShared.h">
+      <Filter>AI\HazardModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\HazardModule\HazardRayCast.h">
+      <Filter>AI\HazardModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\HazardModule\HazardModule.h">
+      <Filter>AI\HazardModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIAwarenessToPlayerHelper.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\DeflectorShield.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProgressionTypes.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AICounters.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret\Turret\Turret.h">
+      <Filter>Turret\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLocalizationManager.h">
+      <Filter>Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffectsSystemDefines.h">
+      <Filter>Multiplayer\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnimation.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementAction.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret\Turret\AnimationActionTurret.h">
+      <Filter>Turret\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret\Turret\TurretHelpers.h">
+      <Filter>Turret\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret\Turret\ScriptBind_Turret.h">
+      <Filter>Turret\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret\Turret\TurretBehaviorEvents.h">
+      <Filter>Turret\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret\Turret\ProceduralContextTurretAimPose.h">
+      <Filter>Turret\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\AIAssignmentNodes.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Assignment.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\GameAudioUtils.h">
+      <Filter>Actor Files\Audio Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleDamageBehaviorAudioFeedback.h">
+      <Filter>Vehicle Files\Damage Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret\Turret\TurretBehaviorParams.h">
+      <Filter>Turret\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionCoopAnim.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Squad\ISquadEventListener.h">
+      <Filter>Multiplayer\Network\Squad</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDistributor.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheat\ClientCheatMonitor.h">
+      <Filter>AntiCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheat\ServerCheatMonitor.h">
+      <Filter>AntiCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\InteractiveObjectEnums.h">
+      <Filter>Game Files\Environment\InteractiveObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\DangerousRigidBody.h">
+      <Filter>Game Files\Environment\InteractiveObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralWeaponContext.h">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponOffset.h">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAIMovement.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAIAimPose.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateUtil.h">
+      <Filter>Actor Files\Player\PlayerStates\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\PlaylistActivityTracker.h" />
+    <ClInclude Include="LagOMeter.h">
+      <Filter>Multiplayer\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralWeaponAnimation.h">
+      <Filter>Actor Files\Player\ProceduralWeaponAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\ParameterGameEffect.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPlugin_InteractiveEntityMonitor.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\Ledge.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAIStance.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\BehaviorTree\BehaviorTreeNodes_Game.h">
+      <Filter>AI\Behavior Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AISquadManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesMPWaveSpawning.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileAutoAimHelper.h">
+      <Filter>Actor Files\Player\AimAssistance</Filter>
+    </ClInclude>
+    <ClInclude Include="FragmentVariationHelper.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAICoverAction.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAI.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsEntityIdRegistry.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\SmartMine.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\RadioChatter\RadioChatterModule.h">
+      <Filter>AI\Radio Chatter</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AloneDetectorModule.h">
+      <Filter>AI\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\DoorPanel.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\IGameAIModule.h">
+      <Filter>AI\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\SearchModule.h">
+      <Filter>AI\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\RangeModule.h">
+      <Filter>AI\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\RateOfDeath\RateOfDeathHelper.h">
+      <Filter>AI\RateOfDeath</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\RateOfDeath\RateOfDeathSimple.h">
+      <Filter>AI\RateOfDeath</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsStructures.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="PickAndThrowWeapon.h">
+      <Filter>Item Files\Weapon Files\Weapons\PickAndThrow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTypeInfo.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PickAndThrowUtilities.h">
+      <Filter>Item Files\Weapon Files\Weapons\PickAndThrow</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowIndicator.h">
+      <Filter>Item Files\Weapon Files\Zoom Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\WaterEffects.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\WaterRipplesGenerator.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionMultiCoopAnim.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesObjectiveVictoryConditionsIndividualScore.h">
+      <Filter>Multiplayer\GameRules\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralContextAim.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAIAiming.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAIAiming.h" />
+    <ClInclude Include="ProceduralContextAim.h" />
+    <ClInclude Include="flashlight.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleMagazine.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CinematicWeapon.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\LightningGameEffect.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\RenderNodes\LightningNode.h">
+      <Filter>Multiplayer\Effects\RenderNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\LightningArc.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\ScriptBind_LightningArc.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionBlendFromRagdoll.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SprintStamina.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConstantCVars.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotDebug.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingSystemDefines.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaptiveCompressor.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingBuffer.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingSystem.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingSystemCircularBuffer.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingSystemClientSender.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingSystemCompressor.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingSystemPackets.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingSystemServerForwarder.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplayActor.h">
+      <Filter>RecordingSystem\ReplayObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplayObject.h">
+      <Filter>RecordingSystem\ReplayObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingSystemDebug.h">
+      <Filter>RecordingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\EnvironmentDisturbanceManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret\Turret\TurretSoundManager.h">
+      <Filter>Turret\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\WaterPuddle.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAIDetail.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAIAiming.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAILooking.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimActionAILookPose.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralContextAim.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralContextLook.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralContextRagdoll.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\VicinityDependentObjectMover.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AICorpse.h">
+      <Filter>AI\Corpses</Filter>
+    </ClInclude>
+    <ClInclude Include="CornerSmoother.h">
+      <Filter>Actor Files\Player\MovementTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\AttachmentUtils.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheat\AnticheatDefines.h">
+      <Filter>AntiCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesStatsRecording.h">
+      <Filter>Multiplayer\GameRules\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret\Turret\ProceduralClipTurretAimPose.h">
+      <Filter>Turret\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\HUDControllerInputIcons.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\HUDEventDispatcher.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\HUDEventTranslator.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\HUDEventWrapper.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\HUDMissionObjectiveSystem.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\HUDOnScreenMessageDef.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\HUDSilhouettes.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\HUDUtils.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\ScriptBind_HUD.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\TacticalOverrideEntity.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Utils\ILoadingMessageProvider.h">
+      <Filter>UI\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Utils\LocalizedStringManager.h">
+      <Filter>UI\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Utils\ScreenLayoutManager.h">
+      <Filter>UI\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Utils\ScreenLayoutUtils.h">
+      <Filter>UI\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu3dModels\FrontEndModelCache.h">
+      <Filter>UI\Menu3dModels</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu3dModels\MenuRender3DModelMgr.h">
+      <Filter>UI\Menu3dModels</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\IUIGameEventSystem.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIDialogs.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIEntityDynTexTag.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIEntityTag.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIGameEvents.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIHUD3D.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIInput.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UILobbyMP.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIMenuEvents.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIMultiPlayer.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UISettings.h">
+      <Filter>UI\EventSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UICVars.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UITypes.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\WarningsManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Option.h">
+      <Filter>UI\ProfileOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ProfileOptions.h">
+      <Filter>UI\ProfileOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HUD\ErrorHandling.h">
+      <Filter>UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowWeaponCustomizationNodes.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\ModelToHudFlowNodes.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="ExactPositioningTrigger.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ExactPositioning.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="UseableTurret.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMovementHelicopter.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\MatchMakingTelemetry.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\MatchMakingHandler.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\GameLobbyCVars.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\MatchMakingEvents.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\ScriptBind_MatchMaking.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\GameLobbyManager.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\TeamBalancing.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\CryLobbySessionHandler.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\StalkerModule.h">
+      <Filter>AI\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPluginEventDistributor.h">
+      <Filter>Multiplayer\Actor Files\player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateRecorder.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="GameStateRecorder.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="MPPathFollowingManager.h">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MPPath.h">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MPTrackViewManager.h">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WaypointPath.h">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMovementMPVTOL.h">
+      <Filter>VTOLVehicleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="QuatTBlender.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralContextColliderMode.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralContextHelpers.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralContextMovementControlMethod.h">
+      <Filter>Actor Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\GameRulesSPDamageHandling.h">
+      <Filter>GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="EMPGrenade.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheatManager.h">
+      <Filter>AntiCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\IGameRulesPrematchListener.h">
+      <Filter>Multiplayer\GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPositionChecker.h">
+      <Filter>Multiplayer\GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemAnimation.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDefinitions.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPackages.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemParamsRegistration.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemParamsRegistrationOperators.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemResourceCache.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemScheduler.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemString.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_Item.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowItemAnimation.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeReticule.h">
+      <Filter>Item Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PickAndThrowProxy.h">
+      <Filter>Item Files\Weapon Files\Weapons\PickAndThrow</Filter>
+    </ClInclude>
+    <ClInclude Include="FireModeParams.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="FireModePluginParams.h">
+      <Filter>Item Files\Weapon Files\Fire Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Recoil.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StickyProjectile.h">
+      <Filter>Item Files\Weapon Files\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePhysicsSettings.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\RenderElements\GameRenderElement.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateRecorder.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponStats.h">
+      <Filter>Item Files\Weapon Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomDeck.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar3D.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Lobby\PlaylistActivityTracker.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPatchDownloader.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModInfo.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModInfoManager.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchPakManager.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeManager.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRulesModules\SpawningVisTable.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\PlayerMindGameBeamEffect.h">
+      <Filter>GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\GameEffects\SceneBlurGameEffect.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamVisualizationManager.h">
+      <Filter>GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="RevertibleConfigLoader.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControl\PlayerEnslavement.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Voting.h">
+      <Filter>GameRules</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayerComponent.h">
+      <Filter>Actor Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentalWeapon.h">
+      <Filter>Item Files\Weapon Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="IPatchPakManagerListener.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\RenderNodes\IGameRenderNode.h">
+      <Filter>Multiplayer\Effects\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateDead.h">
+      <Filter>Actor Files\Player\PlayerStates</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Actor Files\Player\PlayerStates\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateEvents.h">
+      <Filter>Actor Files\Player\PlayerStates\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateFly.h">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateGround.h">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateJump.h">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateLadder.h">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateLedge.h">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateSwim.h">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateSwim_WaterTestProxy.h">
+      <Filter>Actor Files\Player\PlayerStates\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectionAssistanceUnit.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenResolution.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RichPresence.h">
+      <Filter>Multiplayer\Network\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Actor Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBind_ProtectedBinds.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\MineField.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefabManager.h">
+      <Filter>Game Files\RuntimePrefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="RuntimePrefab.h">
+      <Filter>Game Files\RuntimePrefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldBuilder.h">
+      <Filter>Game Files\RuntimePrefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ManualFrameStep.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\Snow.h">
+      <Filter>Game Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMovementStdTank.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleMovementStdWheeled.h">
+      <Filter>Vehicle Files\Movement Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameActions.actions">
+      <Filter>Game Files</Filter>
+    </None>
+    <None Include="AI\Agent.inl">
+      <Filter>AI</Filter>
+    </None>
+    <None Include="..\Launcher\Cursor_White.cur">
+      <Filter>res</Filter>
+    </None>
+    <None Include="SDK.ico">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameDll.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
