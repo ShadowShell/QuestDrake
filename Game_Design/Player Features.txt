@@ -1,0 +1,86 @@
+////////////////////////////////////////////////////////////////////////////////
+1: Player FPS key movement with the following map and standard mouse control
+////////////////////////////////////////////////////////////////////////////////
+
+| Mouse
+* Move Up    =
+* Move Down  =
+* Move Right =
+* Move Left  =
+
+* Left Button  =
+* Right Button =
+* Scroll Click =
+* Scroll Up    =
+* Scroll Down  =
+
+| Row 1
+* §½	  = 
+* 1	  = Command Radial Menu
+* 2	  = Voice Command Radial Menu
+* 3	  = Action/Keybind Reminder Radial Menu
+* 4	  = 
+* 5	  = 
+* 6	  = 
+* 7	  = 
+* 8	  = 
+* 9	  = 
+* 0	  = 
+
+| Row 2
+* TAB	  = Server Info 
+  1: The standart keymap is disbled and mouse cursor is spawned 
+  2: Server buttons and text is displayed
+
+* Q	  = Lean mechanic
+* W	  =
+  1: A vector facing the same way as the camera is added onto the current player vector
+  2: The player moves in the direction of the new vector
+
+* E	  = Check ammo
+* R	  = Reload
+* T	  = HUD & Show Player Names 10-20m
+* Y	  = 
+* U	  = 
+* I	  = 
+* O	  = 
+
+| Row 3	
+* CAPS	  = 
+* A	  = Movement Left
+* S	  = Movement Backward
+* D	  = Movement Right
+* F	  = Use
+* G	  = Random yell
+* H	  = 
+* J	  = 
+* K	  = 
+* L	  = 
+
+| Row 4
+* L-SHIFT = Double quick
+* <>\	  = 
+* Z	  = 
+* X	  = Right shoulder shift toggle
+* C	  = 
+* V	  = Melee attack
+* B	  = 
+* N	  = 
+* M	  = 
+
+| Row 5
+* CTRL	  = Kneel
+* ALT	  = 
+* SPACE   = 
+* ALT-GR  = 
+
+
+A global open chat channel 
+
+////////////////////////////////////////////////////////////////////////////////
+2: 
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+3: 
+////////////////////////////////////////////////////////////////////////////////
