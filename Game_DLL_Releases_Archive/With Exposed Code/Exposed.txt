@@ -1,0 +1,5 @@
+|--------| Welcome this is the exposed file the first 10 characters will be passed to the number so please do not include anything else in the first 10 characters than numbers desimal points is okay though
+300      | TRIGGER_TURN_ANGLE
+65       | MIN_TURN_ANGLE
+130      | MAX_TURN_ANGLE
+70       | MIN_SPIN_ANGLE
