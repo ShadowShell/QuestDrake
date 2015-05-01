@@ -26,7 +26,7 @@ History:
 #include "flashlight.h"
 #include "PlayerPlugin_Interaction.h"
 
- 
+
 //===========AUX FUNCTIONS====================
 namespace
 {
@@ -69,8 +69,6 @@ void CWeapon::RegisterActions()
 		ADD_HANDLER(zoom,OnActionZoom);
 		ADD_HANDLER(xi_zoom,OnActionZoom);
 		ADD_HANDLER(sprint,OnActionSprint);
-		//CodeChange - 0.0.3
-		ADD_HANDLER(jump,OnActionSprint);
 		ADD_HANDLER(sprint_xi,OnActionSprint);
 		//ADD_HANDLER(xi_zoom,OnActionZoomXI);
 		ADD_HANDLER(stabilize,OnActionStabilize);
@@ -90,14 +88,14 @@ void CWeapon::OnAction(EntityId actorId, const ActionId& actionId, int activatio
 }
 
 //------------------------------------------------------
-void CWeapon::SetInputFlag(uint8 actionFlag) 
-{ 
+void CWeapon::SetInputFlag(uint8 actionFlag)
+{
 	CRY_ASSERT(GetOwnerActor() && ( GetOwnerActor()->IsClient() || !GetOwnerActor()->IsPlayer() ) );
 
-	if (!s_lockActionRequests) 
+	if (!s_lockActionRequests)
 	{
 		s_requestedActions |= actionFlag;
-	} 
+	}
 }
 
 //------------------------------------------------------
@@ -122,7 +120,7 @@ void CWeapon::ForcePendingActions(uint8 blockedActions)
 			s_lockActionRequests = false;
 			return;
 		}
-			
+
 		OnAction(GetOwnerId(),CCryName("attack1"),eAAM_OnHold,0.0f);
 	}
 
@@ -251,6 +249,7 @@ bool CWeapon::OnActionSprint(EntityId actorId, const ActionId& actionId, int act
 //Controller input (primary fire)
 bool CWeapon::OnActionAttackPrimary(EntityId actorId, const ActionId& actionId, int activationMode, float value)
 {
+//CodeChange - 0.0.1
 	if(m_zm && m_zm->IsZoomed())
 	{
 		if (activationMode == eAAM_OnPress && (!gEnv->bMultiplayer || m_weaponNextShotTimer <= 0.f))
@@ -265,7 +264,7 @@ bool CWeapon::OnActionAttackPrimary(EntityId actorId, const ActionId& actionId, 
 			if((!gEnv->bMultiplayer || m_weaponNextShotTimer <= 0.f) && m_fm && m_fm->CanFire() && !m_fm->IsFiring() && !IsDeselecting() /*&& !CheckSprint()*/)
 			{
 				StartFire();
-			}		
+			}
 		}
 		else
 		{
@@ -282,7 +281,7 @@ bool CWeapon::OnActionAttackPrimary(EntityId actorId, const ActionId& actionId, 
 bool CWeapon::OnActionAttackSecondary(EntityId actorId, const ActionId& actionId, int activationMode, float value)
 {
 	CActor *pOwner = GetOwnerActor();
-	
+
 	// Iron sight disabled
 	if (pOwner && !pOwner->CanUseIronSights())
 	{
@@ -297,7 +296,7 @@ bool CWeapon::OnActionAttackSecondary(EntityId actorId, const ActionId& actionId
 bool CWeapon::OnActionReload(EntityId actorId, const ActionId& actionId, int activationMode, float value)
 {
 	bool playerCanStartReload = false;
-	
+
 	if (activationMode == eAAM_OnPress && (CheckPickupInteraction(this) == false))
 		playerCanStartReload = true;
 	// this condition results from the interaction between reload and item pickups. If on front on an item and press reload/pick button but not for long enought,
@@ -310,7 +309,7 @@ bool CWeapon::OnActionReload(EntityId actorId, const ActionId& actionId, int act
 		m_reloadButtonTimeStamp = currentTime;
 	else if (activationMode == eAAM_OnRelease && playerCanStartReload && currentTime > m_reloadButtonTimeStamp+g_pGameCVars->pl_useItemHoldTime)
 		playerCanStartReload = false;
-	
+
 	if (!playerCanStartReload)
 		return true;
 
@@ -322,7 +321,6 @@ bool CWeapon::OnActionReload(EntityId actorId, const ActionId& actionId, int act
 	{
 		SetInputFlag(eWeaponAction_Reload);
 	}
-
 
 	return true;
 }
@@ -503,7 +501,7 @@ bool CWeapon::OnActionModify(EntityId actorId, const ActionId& actionId, int act
 			SetItemFlags(eIF_Transitioning);
 
 			GetScheduler()->TimerAction(g_pGameCVars->i_weapon_customisation_transition_time, CSchedulerAction<ScheduleLayer_Enter>::Create(this), false);
-			
+
 			SetItemFlags(eIF_Modifying);
 
 			CPlayer *pPlayer = static_cast<CPlayer*>(GetOwnerActor());
@@ -621,11 +619,11 @@ bool CWeapon::OnActionZoom(EntityId actorId, const ActionId& actionId, int activ
 			}
 		}
 	}
-	
+
 	//can ironsight while super jumping in MP
 	const bool trumpZoom = !CanZoomInState();
 
-	if (!AreAnyItemFlagsSet(eIF_Modifying) && !trumpZoom)	
+	if (!AreAnyItemFlagsSet(eIF_Modifying) && !trumpZoom)
 	{
 		if (!m_fm || !m_fm->IsReloading())
 		{
@@ -712,8 +710,8 @@ bool CWeapon::OnActionZoomXI(EntityId actorId, const ActionId& actionId, int act
 			if (activationMode == eAAM_OnPress && m_fm && !m_fm->IsReloading())
 			{
 				if (m_fm->AllowZoom())
-				{				
-					StartZoom(actorId,1);		
+				{
+					StartZoom(actorId,1);
 				}
 				else
 				{
